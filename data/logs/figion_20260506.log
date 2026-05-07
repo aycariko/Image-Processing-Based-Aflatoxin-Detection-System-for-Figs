@@ -1,0 +1,37 @@
+22:00:33 [INFO] figion: Figion başlatılıyor…
+22:00:34 [DEBUG] figion: Şema uygulandı / doğrulandı.
+22:00:34 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+22:00:34 [INFO] figion: ImageArchiver başlatıldı.
+22:00:34 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+22:00:35 [INFO] figion: Donanım kontrolü: kamera=OK
+22:00:35 [INFO] figion: Durum geçişi: INITIALIZING → READY
+22:00:35 [INFO] figion: VideoProcessorWorker başlatıldı.
+22:00:37 [INFO] figion: Kamera açıldı: index=0, 1280x720
+22:18:56 [INFO] figion: Uygulama kapatılıyor…
+22:18:56 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+22:18:56 [INFO] figion: Kamera bağlantısı kapatıldı.
+22:18:56 [INFO] figion: VideoProcessorWorker durduruldu.
+22:18:56 [INFO] figion: ImageArchiver durduruldu.
+22:18:56 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+22:19:05 [INFO] figion: Figion başlatılıyor…
+22:19:06 [DEBUG] figion: Şema uygulandı / doğrulandı.
+22:19:06 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+22:19:06 [INFO] figion: ImageArchiver başlatıldı.
+22:19:06 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+22:19:07 [INFO] figion: Donanım kontrolü: kamera=OK
+22:19:07 [INFO] figion: Durum geçişi: INITIALIZING → READY
+22:19:08 [INFO] figion: VideoProcessorWorker başlatıldı.
+22:19:08 [INFO] figion: Kamera açıldı: index=0, 1280x720
+22:19:35 [INFO] figion: Durum geçişi: READY → SCANNING
+22:19:35 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260506_221935 (id=19)
+22:19:35 [INFO] figion: Oturum başlatıldı: BATCH_20260506_221935
+22:19:35 [INFO] figion: Tarama başlatıldı — BATCH_20260506_221935
+22:19:49 [INFO] figion: Durum geçişi: SCANNING → READY
+22:19:49 [INFO] figion: Oturum sona erdi: BATCH_20260506_221935 — Toplam: 0, Kirli: 0
+22:19:49 [INFO] figion: Tarama durduruldu.
+00:20:46 [INFO] figion: Uygulama kapatılıyor…
+00:20:46 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+00:20:46 [INFO] figion: Kamera bağlantısı kapatıldı.
+00:20:46 [INFO] figion: VideoProcessorWorker durduruldu.
+00:20:46 [INFO] figion: ImageArchiver durduruldu.
+00:20:46 [INFO] figion: Veritabanı bağlantısı kapatıldı.

@@ -1,0 +1,247 @@
+20:12:23 [INFO] figion: Figion başlatılıyor…
+20:12:24 [DEBUG] figion: Şema uygulandı / doğrulandı.
+20:12:24 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+20:12:24 [INFO] figion: ImageArchiver başlatıldı.
+20:12:24 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+20:12:26 [INFO] figion: Donanım kontrolü: kamera=OK
+20:12:26 [INFO] figion: Durum geçişi: INITIALIZING → READY
+20:12:27 [INFO] figion: VideoProcessorWorker başlatıldı.
+20:12:27 [INFO] figion: Kamera açıldı: index=0, 1280x720
+20:17:52 [INFO] figion: Durum geçişi: READY → SCANNING
+20:17:52 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260505_201752 (id=14)
+20:17:52 [INFO] figion: Oturum başlatıldı: BATCH_20260505_201752
+20:17:52 [INFO] figion: Tarama başlatıldı — BATCH_20260505_201752
+20:17:54 [DEBUG] figion: Tetiklendi: Aflatoxin (96%) — 2 tespit
+20:19:27 [DEBUG] figion: Nesne sahneden çıktı, kilit açıldı.
+20:44:29 [INFO] figion: Figion başlatılıyor…
+20:44:30 [DEBUG] figion: Şema uygulandı / doğrulandı.
+20:44:30 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+20:44:30 [INFO] figion: ImageArchiver başlatıldı.
+20:44:30 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+20:44:31 [INFO] figion: Donanım kontrolü: kamera=OK
+20:44:31 [INFO] figion: Durum geçişi: INITIALIZING → READY
+20:44:32 [INFO] figion: VideoProcessorWorker başlatıldı.
+20:44:32 [INFO] figion: Kamera açıldı: index=0, 1280x720
+20:45:51 [INFO] figion: Durum geçişi: READY → SCANNING
+20:45:51 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260505_204551 (id=15)
+20:45:51 [INFO] figion: Oturum başlatıldı: BATCH_20260505_204551
+20:45:51 [INFO] figion: Tarama başlatıldı — BATCH_20260505_204551
+20:45:52 [DEBUG] figion: Slot 0 tetiklendi: Aflatoxin (61%)
+20:45:52 [DEBUG] figion: Slot 1 tetiklendi: Aflatoxin (87%)
+20:45:55 [DEBUG] figion: Slot 0 kapandı (incir ayrıldı).
+20:46:04 [DEBUG] figion: Slot 1 kapandı (incir ayrıldı).
+20:46:05 [DEBUG] figion: Slot 17 tetiklendi: Healthy (96%)
+20:46:05 [DEBUG] figion: Slot 18 tetiklendi: Healthy (98%)
+20:46:06 [DEBUG] figion: Slot 19 tetiklendi: Healthy (76%)
+20:46:12 [DEBUG] figion: Slot 21 tetiklendi: Healthy (96%)
+20:46:12 [DEBUG] figion: Slot 24 tetiklendi: Healthy (94%)
+20:46:15 [DEBUG] figion: Slot 17 kapandı (incir ayrıldı).
+20:46:15 [DEBUG] figion: Slot 18 kapandı (incir ayrıldı).
+20:46:15 [DEBUG] figion: Slot 19 kapandı (incir ayrıldı).
+20:46:18 [DEBUG] figion: Slot 28 tetiklendi: Aflatoxin (60%)
+20:46:27 [DEBUG] figion: Slot 36 tetiklendi: Aflatoxin (71%)
+20:46:29 [DEBUG] figion: Slot 37 tetiklendi: Healthy (95%)
+20:46:29 [DEBUG] figion: Slot 24 kapandı (incir ayrıldı).
+20:46:32 [DEBUG] figion: Slot 39 tetiklendi: Healthy (83%)
+20:46:32 [DEBUG] figion: Slot 28 kapandı (incir ayrıldı).
+20:46:32 [DEBUG] figion: Slot 36 kapandı (incir ayrıldı).
+20:46:54 [DEBUG] figion: Slot 42 tetiklendi: Aflatoxin (98%)
+20:46:55 [DEBUG] figion: Slot 21 kapandı (incir ayrıldı).
+20:46:55 [DEBUG] figion: Slot 37 kapandı (incir ayrıldı).
+20:46:55 [DEBUG] figion: Slot 39 kapandı (incir ayrıldı).
+20:47:00 [DEBUG] figion: Slot 48 tetiklendi: Healthy (82%)
+20:47:00 [DEBUG] figion: Slot 49 tetiklendi: Healthy (90%)
+20:47:00 [DEBUG] figion: Slot 50 tetiklendi: Healthy (86%)
+20:47:02 [DEBUG] figion: Slot 42 kapandı (incir ayrıldı).
+20:47:25 [DEBUG] figion: Slot 58 tetiklendi: Aflatoxin (99%)
+20:47:25 [DEBUG] figion: Slot 59 tetiklendi: Aflatoxin (88%)
+20:47:27 [DEBUG] figion: Slot 48 kapandı (incir ayrıldı).
+20:47:27 [DEBUG] figion: Slot 49 kapandı (incir ayrıldı).
+20:47:27 [DEBUG] figion: Slot 50 kapandı (incir ayrıldı).
+20:47:28 [DEBUG] figion: Slot 60 tetiklendi: Aflatoxin (94%)
+20:47:32 [DEBUG] figion: Slot 60 kapandı (incir ayrıldı).
+20:47:33 [DEBUG] figion: Slot 63 tetiklendi: Healthy (97%)
+20:47:33 [DEBUG] figion: Slot 64 tetiklendi: Healthy (67%)
+20:47:34 [DEBUG] figion: Slot 59 kapandı (incir ayrıldı).
+20:47:35 [DEBUG] figion: Slot 58 kapandı (incir ayrıldı).
+20:47:44 [DEBUG] figion: Slot 65 tetiklendi: Healthy (96%)
+20:47:44 [DEBUG] figion: Slot 66 tetiklendi: Aflatoxin (74%)
+20:47:48 [DEBUG] figion: Slot 70 tetiklendi: Healthy (84%)
+20:47:48 [DEBUG] figion: Slot 63 kapandı (incir ayrıldı).
+20:47:48 [DEBUG] figion: Slot 64 kapandı (incir ayrıldı).
+20:47:51 [DEBUG] figion: Slot 65 kapandı (incir ayrıldı).
+20:47:51 [DEBUG] figion: Slot 66 kapandı (incir ayrıldı).
+20:47:52 [DEBUG] figion: Slot 83 tetiklendi: Healthy (92%)
+20:47:52 [DEBUG] figion: Slot 84 tetiklendi: Healthy (90%)
+20:47:54 [DEBUG] figion: Slot 70 kapandı (incir ayrıldı).
+20:48:03 [DEBUG] figion: Slot 91 tetiklendi: Healthy (93%)
+20:48:03 [DEBUG] figion: Slot 83 kapandı (incir ayrıldı).
+20:48:03 [DEBUG] figion: Slot 84 kapandı (incir ayrıldı).
+20:48:08 [DEBUG] figion: Slot 91 kapandı (incir ayrıldı).
+20:48:24 [INFO] figion: Durum geçişi: SCANNING → READY
+20:48:24 [INFO] figion: Oturum sona erdi: BATCH_20260505_204551 — Toplam: 26, Kirli: 9
+20:48:24 [INFO] figion: Tarama durduruldu.
+20:50:17 [INFO] figion: Oturum silindi: BATCH_20260429_141250
+20:50:21 [INFO] figion: Oturum silindi: BATCH_20260429_071251
+20:51:16 [INFO] figion: Durum geçişi: READY → SCANNING
+20:51:16 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260505_205116 (id=16)
+20:51:16 [INFO] figion: Oturum başlatıldı: BATCH_20260505_205116
+20:51:16 [INFO] figion: Tarama başlatıldı — BATCH_20260505_205116
+20:51:17 [INFO] figion: Durum geçişi: SCANNING → READY
+20:51:17 [INFO] figion: Oturum sona erdi: BATCH_20260505_205116 — Toplam: 0, Kirli: 0
+20:51:17 [INFO] figion: Tarama durduruldu.
+20:55:14 [INFO] figion: Oturum silindi: BATCH_20260505_205116
+21:02:54 [INFO] figion: Uygulama kapatılıyor…
+21:02:54 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+21:02:54 [INFO] figion: Kamera bağlantısı kapatıldı.
+21:02:54 [INFO] figion: VideoProcessorWorker durduruldu.
+21:02:54 [INFO] figion: ImageArchiver durduruldu.
+21:02:54 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+21:03:04 [INFO] figion: Figion başlatılıyor…
+21:03:05 [DEBUG] figion: Şema uygulandı / doğrulandı.
+21:03:05 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+21:03:05 [INFO] figion: ImageArchiver başlatıldı.
+21:03:05 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+21:03:05 [INFO] figion: Donanım kontrolü: kamera=OK
+21:03:05 [INFO] figion: Durum geçişi: INITIALIZING → READY
+21:03:07 [INFO] figion: VideoProcessorWorker başlatıldı.
+21:03:07 [INFO] figion: Kamera açıldı: index=0, 1280x720
+21:11:43 [INFO] figion: Uygulama kapatılıyor…
+21:11:43 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+21:11:44 [INFO] figion: Kamera bağlantısı kapatıldı.
+21:11:44 [INFO] figion: VideoProcessorWorker durduruldu.
+21:11:44 [INFO] figion: ImageArchiver durduruldu.
+21:11:44 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+21:12:17 [INFO] figion: Figion başlatılıyor…
+21:12:18 [DEBUG] figion: Şema uygulandı / doğrulandı.
+21:12:18 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+21:12:18 [INFO] figion: ImageArchiver başlatıldı.
+21:12:18 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+21:12:18 [INFO] figion: Donanım kontrolü: kamera=OK
+21:12:18 [INFO] figion: Durum geçişi: INITIALIZING → READY
+21:12:20 [INFO] figion: VideoProcessorWorker başlatıldı.
+21:12:20 [INFO] figion: Kamera açıldı: index=0, 1280x720
+21:14:43 [INFO] figion: Oturum silindi: BATCH_20260429_071235
+22:37:54 [INFO] figion: Durum geçişi: READY → SCANNING
+22:37:54 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260505_223754 (id=17)
+22:37:54 [INFO] figion: Oturum başlatıldı: BATCH_20260505_223754
+22:37:54 [INFO] figion: Tarama başlatıldı — BATCH_20260505_223754
+22:38:10 [DEBUG] figion: Slot 43 tetiklendi: Healthy (99%)
+22:38:10 [DEBUG] figion: Slot 44 tetiklendi: Aflatoxin (97%)
+22:38:10 [DEBUG] figion: Slot 45 tetiklendi: Healthy (98%)
+22:38:10 [DEBUG] figion: Slot 46 tetiklendi: Aflatoxin (98%)
+22:38:10 [DEBUG] figion: Slot 47 tetiklendi: Aflatoxin (97%)
+22:38:15 [DEBUG] figion: Slot 49 tetiklendi: Aflatoxin (71%)
+22:38:32 [DEBUG] figion: Slot 59 tetiklendi: Aflatoxin (84%)
+22:38:33 [DEBUG] figion: Slot 43 kapandı (incir ayrıldı).
+22:38:33 [DEBUG] figion: Slot 44 kapandı (incir ayrıldı).
+22:38:33 [DEBUG] figion: Slot 46 kapandı (incir ayrıldı).
+22:38:33 [DEBUG] figion: Slot 47 kapandı (incir ayrıldı).
+22:38:33 [DEBUG] figion: Slot 45 kapandı (incir ayrıldı).
+22:38:33 [DEBUG] figion: Slot 49 kapandı (incir ayrıldı).
+22:38:34 [INFO] figion: Durum geçişi: SCANNING → READY
+22:38:34 [INFO] figion: Oturum sona erdi: BATCH_20260505_223754 — Toplam: 7, Kirli: 5
+22:38:34 [INFO] figion: Tarama durduruldu.
+22:38:42 [INFO] figion: Durum geçişi: READY → SCANNING
+22:38:42 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260505_223842 (id=18)
+22:38:42 [INFO] figion: Oturum başlatıldı: BATCH_20260505_223842
+22:38:42 [INFO] figion: Tarama başlatıldı — BATCH_20260505_223842
+22:38:43 [DEBUG] figion: Slot 0 tetiklendi: Aflatoxin (66%)
+22:38:50 [DEBUG] figion: Slot 11 tetiklendi: Healthy (99%)
+22:38:50 [DEBUG] figion: Slot 12 tetiklendi: Aflatoxin (98%)
+22:38:50 [DEBUG] figion: Slot 13 tetiklendi: Healthy (96%)
+22:38:50 [DEBUG] figion: Slot 15 tetiklendi: Aflatoxin (99%)
+22:38:53 [DEBUG] figion: Slot 17 tetiklendi: Aflatoxin (97%)
+22:38:54 [DEBUG] figion: Slot 18 tetiklendi: Aflatoxin (92%)
+22:38:54 [DEBUG] figion: Slot 0 kapandı (incir ayrıldı).
+22:39:00 [DEBUG] figion: Slot 21 tetiklendi: Healthy (98%)
+22:39:00 [DEBUG] figion: Slot 22 tetiklendi: Aflatoxin (99%)
+22:39:00 [DEBUG] figion: Slot 23 tetiklendi: Healthy (94%)
+22:39:00 [DEBUG] figion: Slot 24 tetiklendi: Aflatoxin (99%)
+22:39:00 [DEBUG] figion: Slot 25 tetiklendi: Aflatoxin (98%)
+22:39:00 [DEBUG] figion: Slot 26 tetiklendi: Aflatoxin (90%)
+22:39:00 [DEBUG] figion: Slot 27 tetiklendi: Aflatoxin (62%)
+22:39:06 [DEBUG] figion: Slot 11 kapandı (incir ayrıldı).
+22:39:06 [DEBUG] figion: Slot 12 kapandı (incir ayrıldı).
+22:39:06 [DEBUG] figion: Slot 13 kapandı (incir ayrıldı).
+22:39:06 [DEBUG] figion: Slot 15 kapandı (incir ayrıldı).
+22:39:06 [DEBUG] figion: Slot 17 kapandı (incir ayrıldı).
+22:39:07 [DEBUG] figion: Slot 18 kapandı (incir ayrıldı).
+22:39:10 [DEBUG] figion: Slot 27 kapandı (incir ayrıldı).
+22:39:19 [DEBUG] figion: Slot 49 tetiklendi: Healthy (75%)
+22:39:20 [DEBUG] figion: Slot 46 tetiklendi: Healthy (98%)
+22:39:20 [DEBUG] figion: Slot 47 tetiklendi: Aflatoxin (99%)
+22:39:20 [DEBUG] figion: Slot 48 tetiklendi: Aflatoxin (90%)
+22:39:22 [DEBUG] figion: Slot 50 tetiklendi: Aflatoxin (90%)
+22:39:22 [DEBUG] figion: Slot 26 kapandı (incir ayrıldı).
+22:39:25 [DEBUG] figion: Slot 23 kapandı (incir ayrıldı).
+22:39:25 [DEBUG] figion: Slot 24 kapandı (incir ayrıldı).
+22:39:44 [DEBUG] figion: Slot 64 tetiklendi: Aflatoxin (90%)
+22:39:46 [DEBUG] figion: Slot 65 tetiklendi: Aflatoxin (82%)
+22:39:51 [DEBUG] figion: Slot 49 kapandı (incir ayrıldı).
+22:39:52 [DEBUG] figion: Slot 72 tetiklendi: Healthy (99%)
+22:39:52 [DEBUG] figion: Slot 73 tetiklendi: Healthy (98%)
+22:39:52 [DEBUG] figion: Slot 74 tetiklendi: Aflatoxin (98%)
+22:39:52 [DEBUG] figion: Slot 50 kapandı (incir ayrıldı).
+22:39:58 [DEBUG] figion: Slot 21 kapandı (incir ayrıldı).
+22:39:58 [DEBUG] figion: Slot 46 kapandı (incir ayrıldı).
+22:39:58 [DEBUG] figion: Slot 47 kapandı (incir ayrıldı).
+22:39:58 [DEBUG] figion: Slot 48 kapandı (incir ayrıldı).
+22:39:58 [DEBUG] figion: Slot 64 kapandı (incir ayrıldı).
+22:39:58 [DEBUG] figion: Slot 65 kapandı (incir ayrıldı).
+22:40:03 [DEBUG] figion: Slot 84 tetiklendi: Aflatoxin (61%)
+22:40:19 [DEBUG] figion: Slot 84 kapandı (incir ayrıldı).
+22:40:21 [DEBUG] figion: Slot 22 kapandı (incir ayrıldı).
+22:40:21 [DEBUG] figion: Slot 25 kapandı (incir ayrıldı).
+22:40:21 [DEBUG] figion: Slot 73 kapandı (incir ayrıldı).
+22:40:21 [DEBUG] figion: Slot 74 kapandı (incir ayrıldı).
+22:40:27 [DEBUG] figion: Slot 114 tetiklendi: Aflatoxin (98%)
+22:40:27 [DEBUG] figion: Slot 115 tetiklendi: Healthy (97%)
+22:40:27 [DEBUG] figion: Slot 116 tetiklendi: Aflatoxin (74%)
+22:40:27 [DEBUG] figion: Slot 117 tetiklendi: Healthy (97%)
+22:40:30 [DEBUG] figion: Slot 119 tetiklendi: Aflatoxin (98%)
+22:40:47 [DEBUG] figion: Slot 123 tetiklendi: Healthy (87%)
+22:40:47 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:47 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:47 [DEBUG] figion: Slot 72 kapandı (incir ayrıldı).
+22:40:47 [DEBUG] figion: Slot 114 kapandı (incir ayrıldı).
+22:40:47 [DEBUG] figion: Slot 116 kapandı (incir ayrıldı).
+22:40:47 [DEBUG] figion: Slot 117 kapandı (incir ayrıldı).
+22:40:47 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:47 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:47 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:47 [DEBUG] figion: Slot 115 kapandı (incir ayrıldı).
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Slot 119 kapandı (incir ayrıldı).
+22:40:48 [DEBUG] figion: Slot 123 kapandı (incir ayrıldı).
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:48 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+22:40:49 [DEBUG] figion: Frame'de incir bulunamadı, YOLO atlandı.
+00:16:58 [INFO] figion: Uygulama kapatılıyor…
+00:16:58 [INFO] figion: Durum geçişi: SCANNING → SHUTDOWN
+00:16:59 [INFO] figion: Kamera bağlantısı kapatıldı.
+00:16:59 [INFO] figion: VideoProcessorWorker durduruldu.
+00:16:59 [INFO] figion: ImageArchiver durduruldu.
+00:16:59 [INFO] figion: Veritabanı bağlantısı kapatıldı.

@@ -1,0 +1,55 @@
+00:16:12 [INFO] figion: Figion başlatılıyor…
+00:16:12 [DEBUG] figion: Şema uygulandı / doğrulandı.
+00:16:12 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+00:16:12 [INFO] figion: ImageArchiver başlatıldı.
+00:16:12 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+00:16:15 [INFO] figion: Donanım kontrolü: kamera=OK
+00:16:15 [INFO] figion: Durum geçişi: INITIALIZING → READY
+00:16:16 [INFO] figion: VideoProcessorWorker başlatıldı.
+00:16:16 [INFO] figion: Kamera açıldı: index=0, 1280x720
+00:17:05 [INFO] figion: Durum geçişi: READY → SCANNING
+00:17:05 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260504_001705 (id=11)
+00:17:05 [INFO] figion: Oturum başlatıldı: BATCH_20260504_001705
+00:17:05 [INFO] figion: Tarama başlatıldı — BATCH_20260504_001705
+00:17:06 [DEBUG] figion: Tetiklendi: Aflatoxin (71%) — 1 tespit
+00:19:32 [DEBUG] figion: Nesne sahneden çıktı, kilit açıldı.
+00:26:26 [INFO] figion: Uygulama kapatılıyor…
+00:26:26 [INFO] figion: Durum geçişi: SCANNING → SHUTDOWN
+00:26:26 [INFO] figion: Kamera bağlantısı kapatıldı.
+00:26:26 [INFO] figion: VideoProcessorWorker durduruldu.
+00:26:27 [INFO] figion: ImageArchiver durduruldu.
+00:26:27 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+00:26:48 [INFO] figion: Figion başlatılıyor…
+00:26:49 [DEBUG] figion: Şema uygulandı / doğrulandı.
+00:26:49 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+00:26:49 [INFO] figion: ImageArchiver başlatıldı.
+00:26:49 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+00:26:49 [INFO] figion: Donanım kontrolü: kamera=OK
+00:26:49 [INFO] figion: Durum geçişi: INITIALIZING → READY
+00:26:50 [INFO] figion: VideoProcessorWorker başlatıldı.
+00:26:51 [INFO] figion: Kamera açıldı: index=0, 1280x720
+00:27:33 [INFO] figion: Durum geçişi: READY → SCANNING
+00:27:33 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260504_002733 (id=12)
+00:27:33 [INFO] figion: Oturum başlatıldı: BATCH_20260504_002733
+00:27:33 [INFO] figion: Tarama başlatıldı — BATCH_20260504_002733
+00:27:35 [DEBUG] figion: Tetiklendi: Aflatoxin (84%) — 4 tespit
+00:28:29 [INFO] figion: Durum geçişi: SCANNING → READY
+00:28:29 [INFO] figion: Oturum sona erdi: BATCH_20260504_002733 — Toplam: 1, Kirli: 1
+00:28:29 [INFO] figion: Tarama durduruldu.
+00:29:10 [INFO] figion: Durum geçişi: READY → SCANNING
+00:29:10 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260504_002910 (id=13)
+00:29:10 [INFO] figion: Oturum başlatıldı: BATCH_20260504_002910
+00:29:10 [INFO] figion: Tarama başlatıldı — BATCH_20260504_002910
+00:29:11 [DEBUG] figion: Tetiklendi: Healthy (62%) — 1 tespit
+00:29:42 [DEBUG] figion: Nesne sahneden çıktı, kilit açıldı.
+00:29:48 [DEBUG] figion: Tetiklendi: Aflatoxin (65%) — 2 tespit
+00:30:44 [DEBUG] figion: Nesne sahneden çıktı, kilit açıldı.
+00:35:31 [INFO] figion: Durum geçişi: SCANNING → READY
+00:35:31 [INFO] figion: Oturum sona erdi: BATCH_20260504_002910 — Toplam: 2, Kirli: 1
+00:35:31 [INFO] figion: Tarama durduruldu.
+00:35:33 [INFO] figion: Uygulama kapatılıyor…
+00:35:33 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+00:35:34 [INFO] figion: Kamera bağlantısı kapatıldı.
+00:35:34 [INFO] figion: VideoProcessorWorker durduruldu.
+00:35:34 [INFO] figion: ImageArchiver durduruldu.
+00:35:34 [INFO] figion: Veritabanı bağlantısı kapatıldı.
