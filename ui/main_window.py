@@ -7,11 +7,11 @@ from PyQt6.QtWidgets import (
     QMainWindow, QWidget, QLabel, QPushButton,
     QHBoxLayout, QVBoxLayout, QGridLayout,
     QTableWidget, QTableWidgetItem, QSlider,
-    QProgressBar, QSizePolicy, QMessageBox,
-    QFileDialog, QHeaderView, QFrame, QSpacerItem,
+    QProgressBar, QSizePolicy, QMessageBox, QLineEdit,
+    QFileDialog, QHeaderView, QFrame,
 )
-from PyQt6.QtCore import Qt, QSize, pyqtSlot, QTimer
-from PyQt6.QtGui import QImage, QPixmap, QFont, QColor
+from PyQt6.QtCore import Qt, pyqtSlot, QTimer
+from PyQt6.QtGui import QImage, QPixmap, QColor
 
 from ui.video_processor_worker import VideoProcessorWorker
 from ui.widgets import StatCard, Separator
@@ -35,10 +35,10 @@ from utils.logger import logger
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self._cfg = ConfigManager()
-        self._state_mgr = StateManager()
+        self._cfg             = ConfigManager()
+        self._state_mgr       = StateManager()
         self._scan_start_time = None
-        self._dur_timer = QTimer(self)
+        self._dur_timer       = QTimer(self)
         self._dur_timer.timeout.connect(self._update_duration)
         self._setup_data_layer()
         self._setup_vision_layer()
@@ -51,13 +51,13 @@ class MainWindow(QMainWindow):
     #  Initialization                                                      #
     # ------------------------------------------------------------------ #
     def _setup_data_layer(self):
-        self._db = DatabaseHandler()
-        conn = self._db.get_connection()
-        self._session_dao = SessionDAO(conn)
+        self._db              = DatabaseHandler()
+        conn                  = self._db.get_connection()
+        self._session_dao     = SessionDAO(conn)
         self._inspection_repo = InspectionRepository(conn)
-        self._archiver = ImageArchiver()
+        self._archiver        = ImageArchiver()
         self._archiver.start()
-        self._session_mgr = SessionManager(
+        self._session_mgr     = SessionManager(
             self._session_dao, self._inspection_repo, self._archiver
         )
 
@@ -98,12 +98,16 @@ class MainWindow(QMainWindow):
         layout = QHBoxLayout(bar)
         layout.setContentsMargins(16, 0, 16, 0)
 
-        title = QLabel("🌿  Figion — Aflatoksin Tespit Sistemi")
+
+        
+
+        title = QLabel("Aflatoxin Detection System")
         title.setObjectName("AppTitle")
 
-        self._badge_cam = QLabel("● Kamera")
+        self._badge_cam = QLabel("● Camera")
         self._badge_cam.setObjectName("BadgeWarn")
-        self._badge_demo = QLabel("⚠ Demo Modu")
+
+        self._badge_demo = QLabel("⚠ Demo Mode")
         self._badge_demo.setObjectName("BadgeWarn")
         self._badge_demo.setVisible(False)
 
@@ -113,7 +117,7 @@ class MainWindow(QMainWindow):
         layout.addWidget(self._badge_demo)
         layout.addSpacing(10)
 
-        btn_db = QPushButton("🗄  Veritabanı")
+        btn_db = QPushButton("🗄  Database")
         btn_db.setFixedHeight(28)
         btn_db.setStyleSheet(
             "background:#252525; border:1px solid #3a3a3a; border-radius:5px;"
@@ -141,13 +145,17 @@ class MainWindow(QMainWindow):
         vid_header = QWidget()
         vh_lay = QHBoxLayout(vid_header)
         vh_lay.setContentsMargins(10, 6, 10, 6)
-        vid_label = QLabel("Canlı Kamera Akışı")
+
+        vid_label = QLabel("Live Camera Feed")
         vid_label.setStyleSheet("color:#555; font-size:12px;")
+
         self._fps_label = QLabel("— ms")
         self._fps_label.setStyleSheet("color:#444; font-size:11px; font-family:monospace;")
-        self._live_badge = QLabel("● CANLI")
+
+        self._live_badge = QLabel("● LIVE")
         self._live_badge.setObjectName("BadgeErr")
         self._live_badge.setVisible(False)
+
         vh_lay.addWidget(vid_label)
         vh_lay.addStretch()
         vh_lay.addWidget(self._fps_label)
@@ -160,7 +168,7 @@ class MainWindow(QMainWindow):
         sep.setStyleSheet("color:#1e1e1e;")
         fw_layout.addWidget(sep)
 
-        self._video_label = QLabel("Kamera başlatılıyor…")
+        self._video_label = QLabel("Starting camera…")
         self._video_label.setObjectName("VideoLabel")
         self._video_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         self._video_label.setSizePolicy(
@@ -173,7 +181,7 @@ class MainWindow(QMainWindow):
         info.setObjectName("SectionTitle")
         backend  = self._engine.backend.upper()
         demo_txt = (
-            " | ⚠ MODEL YOK — Demo modu aktif"
+            " | ⚠ NO MODEL — Demo mode active"
             if self._engine.is_demo_mode
             else f" | Backend: {backend}"
         )
@@ -207,20 +215,22 @@ class MainWindow(QMainWindow):
         lay.setContentsMargins(12, 12, 12, 12)
         lay.setSpacing(8)
 
-        title = QLabel("OTURUM İSTATİSTİKLERİ")
+        title = QLabel("SESSION STATISTICS")
         title.setObjectName("SectionTitle")
         lay.addWidget(title)
 
         grid = QGridLayout()
         grid.setSpacing(8)
-        self._card_total   = StatCard("TOPLAM",     "#e0e0e0")
-        self._card_healthy = StatCard("SAĞLIKLI",   "#1D9E75")
-        self._card_bad     = StatCard("AFLATOKSİN", "#E24B4A")
-        self._card_ratio   = StatCard("KİRLİLİK",   "#EF9F27")
+        self._card_total   = StatCard("TOTAL",     "#e0e0e0")
+        self._card_healthy = StatCard("HEALTHY",   "#1D9E75")
+        self._card_bad     = StatCard("AFLATOXIN", "#E24B4A")
+        self._card_ratio   = StatCard("DEFECT %",  "#EF9F27")
+        self._card_kg      = StatCard("TOTAL KG",  "#7a8fa6")
         grid.addWidget(self._card_total,   0, 0)
         grid.addWidget(self._card_healthy, 0, 1)
         grid.addWidget(self._card_bad,     1, 0)
         grid.addWidget(self._card_ratio,   1, 1)
+        grid.addWidget(self._card_kg,      2, 0, 1, 2)
         lay.addLayout(grid)
 
         self._progress = QProgressBar()
@@ -238,34 +248,66 @@ class MainWindow(QMainWindow):
         lay.setContentsMargins(12, 12, 12, 12)
         lay.setSpacing(8)
 
-        title = QLabel("KONTROL")
+        title = QLabel("CONTROL")
         title.setObjectName("SectionTitle")
         lay.addWidget(title)
 
-        self._btn_start = QPushButton("▶  Taramayı Başlat")
+        self._btn_start = QPushButton("▶  Start Scanning")
         self._btn_start.setObjectName("BtnStart")
         self._btn_start.setFixedHeight(38)
         self._btn_start.clicked.connect(self._on_start_clicked)
 
-        self._btn_stop = QPushButton("■  Taramayı Durdur")
+        self._btn_stop = QPushButton("■  Stop Scanning")
         self._btn_stop.setObjectName("BtnStop")
         self._btn_stop.setFixedHeight(38)
         self._btn_stop.setVisible(False)
         self._btn_stop.clicked.connect(self._on_stop_clicked)
 
-        self._btn_export = QPushButton("⬇  CSV Dışa Aktar")
+        self._btn_new_batch = QPushButton("＋  New Batch")
+        self._btn_new_batch.setObjectName("BtnNewBatch")
+        self._btn_new_batch.setFixedHeight(38)
+        self._btn_new_batch.setVisible(False)
+        self._btn_new_batch.clicked.connect(self._on_new_batch_clicked)
+
+        self._btn_export = QPushButton("⬇  Export CSV")
         self._btn_export.setObjectName("BtnExport")
         self._btn_export.setEnabled(False)
         self._btn_export.clicked.connect(self._on_export_clicked)
 
         lay.addWidget(self._btn_start)
         lay.addWidget(self._btn_stop)
+        lay.addWidget(self._btn_new_batch)
         lay.addWidget(self._btn_export)
 
+        # ── Fig weight input ──
+        lay.addSpacing(4)
+        kg_row = QHBoxLayout()
+        kg_lbl = QLabel("Fig weight")
+        kg_lbl.setStyleSheet("color:#777; font-size:12px;")
+        self._fig_weight_input = QLineEdit()
+        self._fig_weight_input.setText("10")
+        self._fig_weight_input.setFixedWidth(48)
+        self._fig_weight_input.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self._fig_weight_input.setStyleSheet(
+            "background:#252525; border:1px solid #3a3a3a; border-radius:4px;"
+            "padding:2px 6px; color:#aaa; font-size:12px;"
+        )
+        self._fig_weight_input.setPlaceholderText("g")
+        self._fig_weight_input.textChanged.connect(self._update_stats)
+        gr_lbl = QLabel("g / fig")
+        gr_lbl.setStyleSheet("color:#555; font-size:11px;")
+        kg_row.addWidget(kg_lbl)
+        kg_row.addStretch()
+        kg_row.addWidget(self._fig_weight_input)
+        kg_row.addWidget(gr_lbl)
+        lay.addLayout(kg_row)
+
+        # ── Confidence threshold slider ──
+        lay.addSpacing(4)
         conf_row = QHBoxLayout()
-        conf_lbl = QLabel("Güven eşiği")
+        conf_lbl = QLabel("Confidence threshold")
         conf_lbl.setStyleSheet("color:#777; font-size:12px;")
-        self._conf_val_lbl = QLabel(f"{int(self._engine._conf*100)}%")
+        self._conf_val_lbl = QLabel(f"{int(self._engine._conf * 100)}%")
         self._conf_val_lbl.setStyleSheet("color:#aaa; font-size:11px; font-family:monospace;")
         self._conf_val_lbl.setFixedWidth(34)
         self._conf_slider = QSlider(Qt.Orientation.Horizontal)
@@ -307,11 +349,11 @@ class MainWindow(QMainWindow):
 
         lay.addWidget(section_header("SESSION / BATCH INFO"))
 
-        r1, self._lbl_batch   = row("Batch ID",    "lbl_batch")
-        r2, self._lbl_start   = row("Started",     "lbl_start")
-        r3, self._lbl_dur     = row("Duration",    "lbl_dur")
-        r4, self._lbl_state   = row("Durum",       "lbl_state")
-        r5, self._lbl_latency = row("Son gecikme", "lbl_lat")
+        r1, self._lbl_batch   = row("Batch ID",      "lbl_batch")
+        r2, self._lbl_start   = row("Started",        "lbl_start")
+        r3, self._lbl_dur     = row("Duration",       "lbl_dur")
+        r4, self._lbl_state   = row("Status",         "lbl_state")
+        r5, self._lbl_latency = row("Last latency",   "lbl_lat")
 
         lay.addLayout(r1)
         lay.addLayout(r2)
@@ -319,7 +361,7 @@ class MainWindow(QMainWindow):
         lay.addLayout(r4)
         lay.addLayout(r5)
 
-        self._lbl_state.setText("Hazır")
+        self._lbl_state.setText("Ready")
         return w
 
     def _build_log_section(self) -> QWidget:
@@ -331,13 +373,13 @@ class MainWindow(QMainWindow):
         hdr = QWidget()
         hdr_lay = QHBoxLayout(hdr)
         hdr_lay.setContentsMargins(12, 8, 12, 6)
-        t = QLabel("SON TARAMALAR")
+        t = QLabel("RECENT SCANS")
         t.setObjectName("SectionTitle")
         hdr_lay.addWidget(t)
         lay.addWidget(hdr)
 
         self._log_table = QTableWidget(0, 4)
-        self._log_table.setHorizontalHeaderLabels(["ID", "Sonuç", "Güven", "ms"])
+        self._log_table.setHorizontalHeaderLabels(["ID", "Result", "Conf", "ms"])
         self._log_table.horizontalHeader().setSectionResizeMode(
             0, QHeaderView.ResizeMode.Fixed
         )
@@ -369,21 +411,21 @@ class MainWindow(QMainWindow):
         status  = monitor.check()
 
         if status.camera_ok:
-            self._badge_cam.setText("● Kamera")
+            self._badge_cam.setText("● Camera")
             self._badge_cam.setObjectName("BadgeOk")
             self._badge_cam.style().unpolish(self._badge_cam)
             self._badge_cam.style().polish(self._badge_cam)
             self._worker.start_pipeline()
         else:
-            self._badge_cam.setText("✕ Kamera Yok")
+            self._badge_cam.setText("✕ No Camera")
             self._badge_cam.setObjectName("BadgeErr")
             self._badge_cam.style().unpolish(self._badge_cam)
             self._badge_cam.style().polish(self._badge_cam)
             self._btn_start.setEnabled(False)
             self._video_label.setText(
-                "⚠  Kamera bulunamadı.\nKamerayı bağlayıp uygulamayı yeniden başlatın."
+                "⚠  Camera not found.\nPlease connect a camera and restart the application."
             )
-            logger.warning("Kamera bulunamadı — tarama devre dışı.")
+            logger.warning("Camera not found — scanning disabled.")
 
         if self._engine.is_demo_mode:
             self._badge_demo.setVisible(True)
@@ -413,11 +455,11 @@ class MainWindow(QMainWindow):
     def _on_camera_error(self, msg: str):
         self._video_label.setText(f"⚠  {msg}")
         self._btn_start.setEnabled(False)
-        self._badge_cam.setText("✕ Kamera Hatası")
+        self._badge_cam.setText("✕ Camera Error")
         self._badge_cam.setObjectName("BadgeErr")
         self._badge_cam.style().unpolish(self._badge_cam)
         self._badge_cam.style().polish(self._badge_cam)
-        logger.error(f"Kamera hatası: {msg}")
+        logger.error(f"Camera error: {msg}")
 
     # ------------------------------------------------------------------ #
     #  Slots — inspection                                                  #
@@ -436,6 +478,19 @@ class MainWindow(QMainWindow):
         self._card_ratio.set_value(f"{s.ratio}%")
         self._progress.setValue(int(s.ratio))
 
+        try:
+            fig_gram = float(self._fig_weight_input.text())
+            if fig_gram > 0:
+                total_gram = s.total * fig_gram
+                if total_gram < 1000:
+                    self._card_kg.set_value(f"{total_gram:.0f} g")
+                else:
+                    self._card_kg.set_value(f"{total_gram / 1000:.2f} kg")
+            else:
+                self._card_kg.set_value("—")
+        except ValueError:
+            self._card_kg.set_value("—")
+
     def _add_log_row(self, result: InspectionResult):
         row = 0
         self._log_table.insertRow(row)
@@ -445,7 +500,7 @@ class MainWindow(QMainWindow):
         id_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
 
         is_bad   = result.decision == "Aflatoxin"
-        res_item = QTableWidgetItem("Aflatoksin" if is_bad else "Sağlıklı")
+        res_item = QTableWidgetItem("Aflatoxin" if is_bad else "Healthy")
         res_item.setForeground(QColor("#E24B4A" if is_bad else "#1D9E75"))
         res_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
 
@@ -471,23 +526,38 @@ class MainWindow(QMainWindow):
     # ------------------------------------------------------------------ #
     #  Slots — buttons                                                     #
     # ------------------------------------------------------------------ #
-    @pyqtSlot()
-    def _on_start_clicked(self):
-        if not self._state_mgr.transition(AppState.SCANNING):
-            return
+    def _start_session(self):
+        """Common session start logic."""
         batch = self._session_mgr.start_new_session()
         self._scan_start_time = datetime.now()
         self._worker.set_scanning(True)
         self._live_badge.setVisible(True)
         self._btn_start.setVisible(False)
         self._btn_stop.setVisible(True)
+        self._btn_new_batch.setVisible(False)
         self._btn_export.setEnabled(False)
         self._lbl_batch.setText(batch)
         self._lbl_start.setText(self._scan_start_time.strftime("%H:%M:%S"))
         self._lbl_dur.setText("00:00:00")
-        self._lbl_state.setText("Taranıyor…")
+        self._lbl_state.setText("Scanning…")
         self._dur_timer.start(1000)
-        logger.info(f"Tarama başlatıldı — {batch}")
+        logger.info(f"Scanning started — {batch}")
+
+    def _reset_ui_stats(self):
+        """Reset stat cards and log table for a new batch."""
+        self._card_total.set_value(0)
+        self._card_healthy.set_value(0)
+        self._card_bad.set_value(0)
+        self._card_ratio.set_value("0%")
+        self._card_kg.set_value("—")
+        self._progress.setValue(0)
+        self._log_table.setRowCount(0)
+
+    @pyqtSlot()
+    def _on_start_clicked(self):
+        if not self._state_mgr.transition(AppState.SCANNING):
+            return
+        self._start_session()
 
     @pyqtSlot()
     def _update_duration(self):
@@ -509,20 +579,32 @@ class MainWindow(QMainWindow):
         self._live_badge.setVisible(False)
         self._btn_stop.setVisible(False)
         self._btn_start.setVisible(True)
+        self._btn_new_batch.setVisible(True)
         self._btn_export.setEnabled(True)
-        self._lbl_state.setText("Durduruldu")
-        logger.info("Tarama durduruldu.")
+        self._lbl_state.setText("Stopped")
+        logger.info("Scanning stopped.")
+
+    @pyqtSlot()
+    def _on_new_batch_clicked(self):
+        """Previous batch is kept in DB; UI resets and a new session opens."""
+        if not self._state_mgr.transition(AppState.SCANNING):
+            return
+        self._reset_ui_stats()
+        self._start_session()
 
     @pyqtSlot()
     def _on_export_clicked(self):
         path = self._session_mgr.export_csv()
         if path:
             QMessageBox.information(
-                self, "Dışa Aktarma Başarılı",
-                f"CSV dosyası kaydedildi:\n{path}"
+                self, "Export Successful",
+                f"CSV file saved:\n{path}"
             )
         else:
-            QMessageBox.warning(self, "Hata", "Dışa aktarma başarısız. Aktif oturum yok.")
+            QMessageBox.warning(
+                self, "Error",
+                "Export failed. No active session found."
+            )
 
     @pyqtSlot(int)
     def _on_conf_changed(self, value: int):
@@ -538,7 +620,7 @@ class MainWindow(QMainWindow):
     #  Cleanup                                                             #
     # ------------------------------------------------------------------ #
     def closeEvent(self, event):
-        logger.info("Uygulama kapatılıyor…")
+        logger.info("Application closing…")
         self._dur_timer.stop()
         self._state_mgr.transition(AppState.SHUTDOWN)
         if self._state_mgr.is_scanning():

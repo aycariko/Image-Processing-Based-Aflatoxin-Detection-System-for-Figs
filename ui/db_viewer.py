@@ -78,7 +78,7 @@ class SessionListPanel(QWidget):
         hdr.setStyleSheet(f"background:{C_PANEL}; border-bottom:1px solid {C_BORDER};")
         hdr_lay = QHBoxLayout(hdr)
         hdr_lay.setContentsMargins(12, 10, 12, 10)
-        lbl = QLabel("OTURUMLAR")
+        lbl = QLabel("SESSIONS")
         lbl.setStyleSheet(f"color:{C_MUTED}; font-size:11px; letter-spacing:1px;")
         self._refresh_btn = QPushButton("↻")
         self._refresh_btn.setFixedSize(26, 26)
@@ -95,13 +95,13 @@ class SessionListPanel(QWidget):
 
         # ── tablo ──
         self._table = QTableWidget(0, 4)
-        self._table.setHorizontalHeaderLabels(["Batch ID", "Başlangıç", "Toplam", "Kirli"])
+        self._table.setHorizontalHeaderLabels(["Batch ID", "Start", "Total", "Aflatoxin"])
         self._table.horizontalHeader().setSectionResizeMode(0, QHeaderView.ResizeMode.Stretch)
         self._table.horizontalHeader().setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
         self._table.horizontalHeader().setSectionResizeMode(2, QHeaderView.ResizeMode.Fixed)
         self._table.horizontalHeader().setSectionResizeMode(3, QHeaderView.ResizeMode.Fixed)
-        self._table.setColumnWidth(2, 54)
-        self._table.setColumnWidth(3, 50)
+        self._table.setColumnWidth(2, 60)
+        self._table.setColumnWidth(3, 70)
         self._table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
         self._table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self._table.setSelectionMode(QAbstractItemView.SelectionMode.SingleSelection)
@@ -202,11 +202,11 @@ class InspectionTablePanel(QWidget):
         tb_lay.setContentsMargins(12, 8, 12, 8)
         tb_lay.setSpacing(8)
 
-        lbl = QLabel("KAYITLAR")
+        lbl = QLabel("RECORDS")
         lbl.setStyleSheet(f"color:{C_MUTED}; font-size:11px; letter-spacing:1px;")
 
         self._search = QLineEdit()
-        self._search.setPlaceholderText("Ara…")
+        self._search.setPlaceholderText("Search…")
         self._search.setFixedWidth(160)
         self._search.setStyleSheet(
             f"background:#252525; border:1px solid #3a3a3a; border-radius:4px;"
@@ -215,7 +215,7 @@ class InspectionTablePanel(QWidget):
         self._search.textChanged.connect(self._apply_filter)
 
         self._filter_combo = QComboBox()
-        self._filter_combo.addItems(["Tümü", "Sağlıklı", "Aflatoksin"])
+        self._filter_combo.addItems(["Total", "Healthy", "Aflatoxin"])
         self._filter_combo.setFixedWidth(110)
         self._filter_combo.setStyleSheet(
             f"background:#252525; border:1px solid #3a3a3a; border-radius:4px;"
@@ -223,7 +223,7 @@ class InspectionTablePanel(QWidget):
         )
         self._filter_combo.currentIndexChanged.connect(self._apply_filter)
 
-        self._count_lbl = QLabel("0 kayıt")
+        self._count_lbl = QLabel("0 records")
         self._count_lbl.setStyleSheet(f"color:{C_MUTED}; font-size:11px;")
 
         tb_lay.addWidget(lbl)
@@ -237,19 +237,22 @@ class InspectionTablePanel(QWidget):
         # ── tablo ──
         self._table = QTableWidget(0, 6)
         self._table.setHorizontalHeaderLabels(
-            ["İncir ID", "Zaman", "Karar", "Güven", "Gecikme (ms)", "Görüntü"]
+            ["Fig ID", "Timestamp", "Decision", "Confidence", "Latency (ms)", "Image"]
         )
         hh = self._table.horizontalHeader()
         hh.setSectionResizeMode(0, QHeaderView.ResizeMode.Fixed)
         hh.setSectionResizeMode(1, QHeaderView.ResizeMode.ResizeToContents)
         hh.setSectionResizeMode(2, QHeaderView.ResizeMode.Fixed)
         hh.setSectionResizeMode(3, QHeaderView.ResizeMode.Fixed)
-        hh.setSectionResizeMode(4, QHeaderView.ResizeMode.Fixed)
-        hh.setSectionResizeMode(5, QHeaderView.ResizeMode.Stretch)
+
+        hh.setSectionResizeMode(3, QHeaderView.ResizeMode.ResizeToContents)
+        hh.setSectionResizeMode(4, QHeaderView.ResizeMode.ResizeToContents)
+
         self._table.setColumnWidth(0, 70)
-        self._table.setColumnWidth(2, 90)
-        self._table.setColumnWidth(3, 65)
-        self._table.setColumnWidth(4, 90)
+        self._table.setColumnWidth(2, 100)
+
+        #self._table.setColumnWidth(3, 65)
+        #self._table.setColumnWidth(4, 90)
         self._table.setEditTriggers(QAbstractItemView.EditTrigger.NoEditTriggers)
         self._table.setSelectionBehavior(QAbstractItemView.SelectionBehavior.SelectRows)
         self._table.verticalHeader().setVisible(False)
@@ -285,8 +288,8 @@ class InspectionTablePanel(QWidget):
         count = 0
         for r in self._all_rows:
             decision = r["decision"]
-            if ftype == "Sağlıklı"   and decision != "Healthy":    continue
-            if ftype == "Aflatoksin" and decision != "Aflatoxin":  continue
+            if ftype == "Healthy"   and decision != "Healthy":    continue
+            if ftype == "Aflatoxin" and decision != "Aflatoxin":  continue
             ts_str = r["timestamp"][:16].replace("T", " ") if r["timestamp"] else ""
             if text and text not in ts_str.lower() and text not in decision.lower():
                 continue
@@ -302,7 +305,7 @@ class InspectionTablePanel(QWidget):
             ts_item.setForeground(QColor(C_MUTED))
 
             is_bad = decision == "Aflatoxin"
-            dec_item = QTableWidgetItem("Aflatoksin" if is_bad else "Sağlıklı")
+            dec_item = QTableWidgetItem("Aflatoxin" if is_bad else "Healthy")
             dec_item.setForeground(QColor(C_RED if is_bad else C_GREEN))
             dec_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
 
@@ -331,7 +334,7 @@ class InspectionTablePanel(QWidget):
             count += 1
 
         self._table.setSortingEnabled(True)
-        self._count_lbl.setText(f"{count} kayıt")
+        self._count_lbl.setText(f"{count} records")
 
     def get_visible_rows(self):
         """Görünen satırları (filtre sonrası) döndür."""
@@ -405,7 +408,7 @@ class ChartPanel(QWidget):
 
         chart = QChart()
         chart.addSeries(series)
-        chart.setTitle(f"Dağılım  (n={total})")
+        chart.setTitle(f"Distribution  (n={total})")
         chart.setTitleBrush(QBrush(QColor(C_TEXT)))
         chart.setBackgroundBrush(QBrush(QColor(C_BG)))
         chart.legend().setLabelColor(QColor(C_MUTED))
@@ -413,13 +416,13 @@ class ChartPanel(QWidget):
         self._pie_view.setChart(chart)
 
     def _draw_bar(self, rows: list):
-        # Güven skoru dağılımı — 10 aralık
+        # Confidence score distribution — 10 bins
         buckets = [0] * 10
         for r in rows:
             idx = min(int(float(r["confidence"]) * 10), 9)
             buckets[idx] += 1
 
-        bar_set = QBarSet("Kayıt Sayısı")
+        bar_set = QBarSet("Record Count")
         bar_set.setColor(QColor(C_GREEN))
         for v in buckets:
             bar_set.append(v)
@@ -438,7 +441,7 @@ class ChartPanel(QWidget):
 
         chart = QChart()
         chart.addSeries(series)
-        chart.setTitle("Güven Skoru Dağılımı")
+        chart.setTitle("Confidence Score Distribution")
         chart.setTitleBrush(QBrush(QColor(C_TEXT)))
         chart.setBackgroundBrush(QBrush(QColor(C_BG)))
         chart.addAxis(axis_x, Qt.AlignmentFlag.AlignBottom)
@@ -451,7 +454,7 @@ class ChartPanel(QWidget):
 
 
 # ─────────────────────────────────────────────────────────────────────────────
-#  Özet istatistik kartları satırı
+#  Summary statistics cards row
 # ─────────────────────────────────────────────────────────────────────────────
 class SummaryBar(QWidget):
     def __init__(self, parent=None):
@@ -464,12 +467,12 @@ class SummaryBar(QWidget):
 
         self._cards = {}
         for key, label, color in [
-            ("total",    "TOPLAM",        C_TEXT),
-            ("healthy",  "SAĞLIKLI",      C_GREEN),
-            ("afla",     "AFLATOKSİN",    C_RED),
-            ("ratio",    "KİRLİLİK ORANI", C_AMBER),
-            ("duration", "SÜRE",          C_MUTED),
-            ("avg_lat",  "ORT. GECİKME",  C_MUTED),
+            ("total",    "Total",        C_TEXT),
+            ("healthy",  "Healthy",      C_GREEN),
+            ("afla",     "Aflatoxin",    C_RED),
+            ("ratio",    "Contamination Rate", C_AMBER),
+            ("duration", "Duration",          C_MUTED),
+            ("avg_lat",  "Avg. Latency",  C_MUTED),
         ]:
             card = QWidget()
             c_lay = QVBoxLayout(card)
@@ -506,7 +509,7 @@ class SummaryBar(QWidget):
                 t0 = datetime.fromisoformat(s["start_time"])
                 t1 = datetime.fromisoformat(s["end_time"])
                 secs = int((t1 - t0).total_seconds())
-                duration = f"{secs//60}d {secs%60}s"
+                duration = f"{secs//60}m {secs%60}s"
             except Exception:
                 pass
 
@@ -539,7 +542,7 @@ class DatabaseViewer(QDialog):
 
     # ── İnşa ──────────────────────────────────────────────────────────────
     def _build(self):
-        self.setWindowTitle("Figion — Veritabanı Görüntüleyici")
+        self.setWindowTitle("Figion — Database Viewer")
         # self.resize(1300, 780)
         self.setMinimumSize(1000, 600)
   
@@ -598,10 +601,10 @@ class DatabaseViewer(QDialog):
         lay = QHBoxLayout(hdr)
         lay.setContentsMargins(16, 0, 16, 0)
 
-        title = QLabel("🗄  Veritabanı Görüntüleyici")
+        title = QLabel("🗄  Database Viewer")
         title.setStyleSheet(f"color:{C_TEXT}; font-size:14px; font-weight:600;")
 
-        self._session_lbl = QLabel("Oturum seçin")
+        self._session_lbl = QLabel("Select a session")
         self._session_lbl.setStyleSheet(f"color:{C_MUTED}; font-size:12px;")
 
         lay.addWidget(title)
@@ -626,10 +629,10 @@ class DatabaseViewer(QDialog):
                 b.setToolTip(tip)
             return b
 
-        self._btn_csv     = btn("⬇  CSV Dışa Aktar",   "BtnExport", "Seçili oturumu CSV olarak kaydet")
-        self._btn_del_ses = btn("🗑  Oturumu Sil",       "BtnDanger", "Seçili oturumu ve kayıtlarını sil")
-        self._btn_del_all = btn("⚠  Tümünü Temizle",    "BtnDanger", "TÜM veritabanını sil")
-        self._btn_close   = btn("Kapat",                "BtnNeutral")
+        self._btn_csv     = btn("⬇  Export CSV",   "BtnExport", "Save the selected session as CSV")
+        self._btn_del_ses = btn("🗑  Delete Session",       "BtnDanger", "Delete the selected session and its records")
+        self._btn_del_all = btn("⚠  Clear All",    "BtnDanger", "Delete the ENTIRE database")
+        self._btn_close   = btn("Close",                "BtnNeutral")
 
         self._btn_csv.clicked.connect(self._export_csv)
         self._btn_del_ses.clicked.connect(self._delete_session)
@@ -657,13 +660,13 @@ class DatabaseViewer(QDialog):
     # ── CSV dışa aktar ────────────────────────────────────────────────────
     def _export_csv(self):
         if not self._current_session_id:
-            QMessageBox.warning(self, "Uyarı", "Önce bir oturum seçin.")
+            QMessageBox.warning(self, "Warning", "Please select a session first.")
             return
 
         path, _ = QFileDialog.getSaveFileName(
-            self, "CSV Kaydet",
+            self, "Save CSV",
             f"{self._current_batch_id}.csv",
-            "CSV Dosyaları (*.csv)"
+            "CSV Files (*.csv)"
         )
         if not path:
             return
@@ -672,26 +675,26 @@ class DatabaseViewer(QDialog):
         try:
             with open(path, "w", newline="", encoding="utf-8-sig") as f:
                 writer = csv.writer(f)
-                writer.writerow(["İncir_ID", "Zaman", "Karar", "Güven", "Gecikme_ms", "Görüntü_Yolu"])
+                writer.writerow(["Fig_ID", "Time", "Decision", "Confidence", "Latency_ms", "Image_Path"])
                 for r in rows:
                     writer.writerow([
                         r["fig_seq"], r["timestamp"], r["decision"],
                         r["confidence"], r["latency_ms"], r["image_path"]
                     ])
-            QMessageBox.information(self, "Başarılı", f"CSV kaydedildi:\n{path}")
+            QMessageBox.information(self, "Success", f"CSV saved:\n{path}")
             logger.info(f"DB Viewer CSV export: {path}")
         except Exception as e:
-            QMessageBox.critical(self, "Hata", f"CSV kaydedilemedi:\n{e}")
+            QMessageBox.critical(self, "Error", f"CSV could not be saved:\n{e}")
 
-    # ── Oturum sil ────────────────────────────────────────────────────────
+    # ── Delete session ─────────────────────────────────────────────────────
     def _delete_session(self):
         if not self._current_session_id:
-            QMessageBox.warning(self, "Uyarı", "Önce bir oturum seçin.")
+            QMessageBox.warning(self, "Warning", "Please select a session first.")
             return
 
         reply = QMessageBox.question(
-            self, "Oturumu Sil",
-            f"'{self._current_batch_id}' oturumu ve tüm kayıtları silinecek.\nEmin misiniz?",
+            self, "Delete Session",
+            f"'{self._current_batch_id}' session and all its records will be deleted.\nAre you sure?",
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
             QMessageBox.StandardButton.No,
         )
@@ -702,32 +705,32 @@ class DatabaseViewer(QDialog):
             self._conn.execute("DELETE FROM inspections WHERE session_id=?", (self._current_session_id,))
             self._conn.execute("DELETE FROM sessions WHERE id=?", (self._current_session_id,))
             self._conn.commit()
-            logger.info(f"Oturum silindi: {self._current_batch_id}")
+            logger.info(f"Session deleted: {self._current_batch_id}")
         except Exception as e:
-            QMessageBox.critical(self, "Hata", f"Silinemedi:\n{e}")
+            QMessageBox.critical(self, "Error", f"Could not delete:\n{e}")
             return
 
         self._current_session_id = None
         self._current_batch_id   = None
-        self._session_lbl.setText("Oturum seçin")
+        self._session_lbl.setText("Select a session")
         self._inspection_panel.load_session(-1)
         self._session_panel.load()
 
-    # ── Tümünü temizle ────────────────────────────────────────────────────
+    # ── Delete all ────────────────────────────────────────────────────────
     def _delete_all(self):
         reply = QMessageBox.question(
-            self, "Tümünü Temizle",
-            "TÜM oturumlar ve kayıtlar kalıcı olarak silinecek!\nBu işlem geri alınamaz. Devam?",
+            self, "Delete All",
+            "ALL sessions and records will be permanently deleted!\nThis action cannot be undone. Continue?",
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
             QMessageBox.StandardButton.No,
         )
         if reply != QMessageBox.StandardButton.Yes:
             return
 
-        # İkinci onay
+        # Second confirmation for such a destructive action 
         reply2 = QMessageBox.warning(
-            self, "Son Onay",
-            "Gerçekten TÜM veritabanını temizlemek istiyor musunuz?",
+            self, "Final Confirmation",
+            "Are you sure you want to delete the ENTIRE database?",
             QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.No,
             QMessageBox.StandardButton.No,
         )
@@ -738,18 +741,18 @@ class DatabaseViewer(QDialog):
             self._conn.execute("DELETE FROM inspections")
             self._conn.execute("DELETE FROM sessions")
             self._conn.commit()
-            logger.warning("Tüm veritabanı temizlendi.")
+            logger.warning("Entire database cleared.")
         except Exception as e:
-            QMessageBox.critical(self, "Hata", f"Temizlenemedi:\n{e}")
+            QMessageBox.critical(self, "Error", f"Could not clear database:\n{e}")
             return
 
         self._current_session_id = None
         self._current_batch_id   = None
-        self._session_lbl.setText("Oturum seçin")
+        self._session_lbl.setText("Select a session")
         self._inspection_panel.load_session(-1)
         self._session_panel.load()
 
-    # ── Stil ──────────────────────────────────────────────────────────────
+    # ── Style ──────────────────────────────────────────────────────────────
     def _stylesheet(self) -> str:
         return f"""
 QDialog {{ background:{C_BG}; color:{C_TEXT}; font-family:"Segoe UI","Helvetica Neue",Arial,sans-serif; font-size:13px; }}

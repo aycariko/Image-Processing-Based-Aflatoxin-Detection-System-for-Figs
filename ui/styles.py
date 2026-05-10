@@ -259,6 +259,18 @@ QComboBox QAbstractItemView {
     color: #ddd;
 }
 
+# Mevcut BtnStart stilinin yanına
+QPushButton#BtnNewBatch {
+    background: #0d2030;
+    color: #4a9edd;
+    border: 1px solid #1a4a6a;
+    border-radius: 6px;
+}
+QPushButton#BtnNewBatch:hover {
+    background: #142840;
+    border-color: #2a6a9a;
+}
+
 /* ── MessageBox ── */
 QMessageBox {
     background-color: #161616;
