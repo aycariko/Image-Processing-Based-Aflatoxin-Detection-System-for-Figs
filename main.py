@@ -63,12 +63,12 @@ def _make_splash(progress: float = 0.0, message: str = "Initializing…",
     f2 = QFont("Segoe UI", 10)
     p.setFont(f2)
     p.setPen(QColor("#4a4a4a"))
-    # Yazıyı daha yukarı almak için eksi değer kullanıyoruz (-15 yapabilirsiniz)
+    # Yazıyı daha yukarı almak için eksi değer kullanıyoruz 
     p.drawText(0, logo_y + logo_h - 15, w, 24,
                Qt.AlignmentFlag.AlignHCenter,
                "Aflatoxin Detection System  ·  v1.0")
 
-    # ── Progress bar ── 110 dan 60 a yaklaştırdık 
+    # ── Progress bar 
     bar_x  = w // 2 - 120
     # Barı yukarı çekmek için +40 yerine +10 yapıyoruz
     bar_y  = logo_y + logo_h + 5
@@ -85,7 +85,6 @@ def _make_splash(progress: float = 0.0, message: str = "Initializing…",
     if fill_w > 0:
         p.setBrush(QColor("#7c3aed"))
         p.drawRoundedRect(bar_x, bar_y, fill_w, bar_h, 2, 2)
-        # Parlayan uç
         p.setBrush(QColor("#a78bfa"))
         p.drawEllipse(bar_x + fill_w - 4, bar_y - 3, 8, 8)
 
