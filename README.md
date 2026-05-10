@@ -32,23 +32,6 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-
-## Model (ONNX)
-
-`models/figion_yolo.onnx` dosyası bulunamazsa uygulama **Demo Modunda** çalışır.  
-Demo modunda ~%12 oranında rastgele aflatoksin tespiti simüle edilir — gerçek doğruluk yoktur.
-
-Kendi modelinizi eğitmek için:
-```bash
-pip install ultralytics
-yolo train data=incir.yaml model=yolo11n.pt epochs=100 imgsz=640
-yolo export model=runs/detect/train/weights/best.pt format=onnx
-cp runs/detect/train/weights/best.onnx models/figion_yolo.onnx
-```
-
----
-
 ## Proje Yapısı
 
 ```
