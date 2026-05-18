@@ -1,0 +1,1307 @@
+08:00:52 [INFO] figion: Figion başlatılıyor…
+08:00:53 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:00:53 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:00:53 [INFO] figion: ImageArchiver başlatıldı.
+08:00:53 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:00:56 [INFO] figion: Donanım kontrolü: kamera=OK
+08:00:56 [INFO] figion: Durum geçişi: INITIALIZING → READY
+08:00:57 [INFO] figion: VideoProcessorWorker başlatıldı.
+08:00:57 [INFO] figion: Kamera açıldı: index=0, 1280x720
+08:01:08 [INFO] figion: Durum geçişi: READY → SCANNING
+08:01:08 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_080108 (id=20)
+08:01:08 [INFO] figion: Oturum başlatıldı: BATCH_20260509_080108
+08:01:08 [INFO] figion: Tarama başlatıldı — BATCH_20260509_080108
+08:01:40 [INFO] figion: Durum geçişi: SCANNING → READY
+08:01:40 [INFO] figion: Oturum sona erdi: BATCH_20260509_080108 — Toplam: 0, Kirli: 0
+08:01:40 [INFO] figion: Tarama durduruldu.
+08:01:56 [INFO] figion: Oturum silindi: BATCH_20260506_221935
+08:01:59 [INFO] figion: Oturum silindi: BATCH_20260509_080108
+08:02:06 [INFO] figion: Oturum silindi: BATCH_20260505_201752
+08:02:12 [INFO] figion: Oturum silindi: BATCH_20260504_001705
+08:02:15 [INFO] figion: Oturum silindi: BATCH_20260429_152104
+08:02:18 [INFO] figion: Oturum silindi: BATCH_20260429_151532
+08:40:55 [INFO] figion: Uygulama kapatılıyor…
+08:40:55 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+08:40:56 [INFO] figion: Kamera bağlantısı kapatıldı.
+08:40:56 [INFO] figion: VideoProcessorWorker durduruldu.
+08:40:56 [INFO] figion: ImageArchiver durduruldu.
+08:40:56 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+08:41:02 [INFO] figion: Figion başlatılıyor…
+08:41:18 [INFO] figion: Figion başlatılıyor…
+08:41:19 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:41:19 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:41:19 [INFO] figion: ImageArchiver başlatıldı.
+08:41:19 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:41:19 [INFO] figion: Donanım kontrolü: kamera=OK
+08:41:19 [INFO] figion: Durum geçişi: INITIALIZING → READY
+08:41:20 [INFO] figion: VideoProcessorWorker başlatıldı.
+08:41:21 [INFO] figion: Kamera açıldı: index=0, 1280x720
+08:42:12 [INFO] figion: Durum geçişi: READY → SCANNING
+08:42:12 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_084212 (id=21)
+08:42:12 [INFO] figion: Oturum başlatıldı: BATCH_20260509_084212
+08:42:12 [INFO] figion: Tarama başlatıldı — BATCH_20260509_084212
+08:42:14 [INFO] figion: Durum geçişi: SCANNING → READY
+08:42:14 [INFO] figion: Oturum sona erdi: BATCH_20260509_084212 — Toplam: 0, Kirli: 0
+08:42:14 [INFO] figion: Tarama durduruldu.
+08:42:26 [INFO] figion: Durum geçişi: READY → SCANNING
+08:42:26 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_084226 (id=22)
+08:42:26 [INFO] figion: Oturum başlatıldı: BATCH_20260509_084226
+08:42:26 [INFO] figion: Tarama başlatıldı — BATCH_20260509_084226
+08:42:51 [INFO] figion: Durum geçişi: SCANNING → READY
+08:42:51 [INFO] figion: Oturum sona erdi: BATCH_20260509_084226 — Toplam: 0, Kirli: 0
+08:42:51 [INFO] figion: Tarama durduruldu.
+08:42:54 [INFO] figion: Durum geçişi: READY → SCANNING
+08:42:54 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_084254 (id=23)
+08:42:54 [INFO] figion: Oturum başlatıldı: BATCH_20260509_084254
+08:42:54 [INFO] figion: Tarama başlatıldı — BATCH_20260509_084254
+08:43:13 [INFO] figion: Oturum silindi: BATCH_20260509_084254
+08:43:16 [INFO] figion: Oturum silindi: BATCH_20260509_084226
+08:43:20 [INFO] figion: Oturum silindi: BATCH_20260509_084212
+08:43:54 [INFO] figion: Durum geçişi: SCANNING → READY
+08:43:54 [INFO] figion: Oturum sona erdi: BATCH_20260509_084254 — Toplam: 0, Kirli: 0
+08:43:54 [INFO] figion: Tarama durduruldu.
+08:44:19 [INFO] figion: Uygulama kapatılıyor…
+08:44:19 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+08:44:20 [INFO] figion: Kamera bağlantısı kapatıldı.
+08:44:20 [INFO] figion: VideoProcessorWorker durduruldu.
+08:44:20 [INFO] figion: ImageArchiver durduruldu.
+08:44:20 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+08:44:25 [INFO] figion: Figion başlatılıyor…
+08:44:26 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:44:26 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:44:26 [INFO] figion: ImageArchiver başlatıldı.
+08:44:26 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:44:26 [INFO] figion: Donanım kontrolü: kamera=OK
+08:44:26 [INFO] figion: Durum geçişi: INITIALIZING → READY
+08:44:28 [INFO] figion: VideoProcessorWorker başlatıldı.
+08:44:28 [INFO] figion: Kamera açıldı: index=0, 1280x720
+08:44:36 [INFO] figion: Uygulama kapatılıyor…
+08:44:36 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+08:44:36 [INFO] figion: Kamera bağlantısı kapatıldı.
+08:44:36 [INFO] figion: VideoProcessorWorker durduruldu.
+08:44:36 [INFO] figion: ImageArchiver durduruldu.
+08:44:36 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+08:44:41 [INFO] figion: Figion başlatılıyor…
+08:44:42 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:44:42 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:44:42 [INFO] figion: ImageArchiver başlatıldı.
+08:44:42 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:44:43 [INFO] figion: Donanım kontrolü: kamera=OK
+08:44:43 [INFO] figion: Durum geçişi: INITIALIZING → READY
+08:44:44 [INFO] figion: VideoProcessorWorker başlatıldı.
+08:44:44 [INFO] figion: Kamera açıldı: index=0, 1280x720
+08:44:56 [INFO] figion: Uygulama kapatılıyor…
+08:44:56 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+08:44:56 [INFO] figion: Kamera bağlantısı kapatıldı.
+08:44:56 [INFO] figion: VideoProcessorWorker durduruldu.
+08:44:56 [INFO] figion: ImageArchiver durduruldu.
+08:44:56 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+08:45:23 [INFO] figion: Figion başlatılıyor…
+08:45:24 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:45:24 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:45:24 [INFO] figion: ImageArchiver başlatıldı.
+08:45:24 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:45:24 [INFO] figion: Donanım kontrolü: kamera=OK
+08:45:24 [INFO] figion: Durum geçişi: INITIALIZING → READY
+08:45:25 [INFO] figion: VideoProcessorWorker başlatıldı.
+08:45:26 [INFO] figion: Kamera açıldı: index=0, 1280x720
+08:45:29 [INFO] figion: Uygulama kapatılıyor…
+08:45:29 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+08:45:30 [INFO] figion: Kamera bağlantısı kapatıldı.
+08:45:30 [INFO] figion: VideoProcessorWorker durduruldu.
+08:45:30 [INFO] figion: ImageArchiver durduruldu.
+08:45:30 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+08:45:34 [INFO] figion: Figion başlatılıyor…
+08:45:35 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:45:35 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:45:35 [INFO] figion: ImageArchiver başlatıldı.
+08:45:35 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:46:17 [INFO] figion: Figion başlatılıyor…
+08:46:17 [DEBUG] figion: Şema uygulandı / doğrulandı.
+08:46:17 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+08:46:17 [INFO] figion: ImageArchiver başlatıldı.
+08:46:18 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+08:46:18 [INFO] figion: Donanım kontrolü: kamera=OK
+08:46:18 [INFO] figion: Durum geçişi: INITIALIZING → READY
+08:46:19 [INFO] figion: VideoProcessorWorker başlatıldı.
+08:46:19 [INFO] figion: Kamera açıldı: index=0, 1280x720
+08:46:23 [INFO] figion: Durum geçişi: READY → SCANNING
+08:46:23 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_084623 (id=24)
+08:46:23 [INFO] figion: Oturum başlatıldı: BATCH_20260509_084623
+08:46:23 [INFO] figion: Tarama başlatıldı — BATCH_20260509_084623
+08:46:26 [INFO] figion: Durum geçişi: SCANNING → READY
+08:46:26 [INFO] figion: Oturum sona erdi: BATCH_20260509_084623 — Toplam: 0, Kirli: 0
+08:46:26 [INFO] figion: Tarama durduruldu.
+08:46:31 [INFO] figion: Durum geçişi: READY → SCANNING
+08:46:31 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_084631 (id=25)
+08:46:31 [INFO] figion: Oturum başlatıldı: BATCH_20260509_084631
+08:46:31 [INFO] figion: Tarama başlatıldı — BATCH_20260509_084631
+08:46:37 [INFO] figion: Durum geçişi: SCANNING → READY
+08:46:37 [INFO] figion: Oturum sona erdi: BATCH_20260509_084631 — Toplam: 0, Kirli: 0
+08:46:37 [INFO] figion: Tarama durduruldu.
+09:01:23 [INFO] figion: Uygulama kapatılıyor…
+09:01:23 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:01:23 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:01:23 [INFO] figion: VideoProcessorWorker durduruldu.
+09:01:23 [INFO] figion: ImageArchiver durduruldu.
+09:01:23 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:01:28 [INFO] figion: Figion başlatılıyor…
+09:01:29 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:01:29 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:01:29 [INFO] figion: ImageArchiver başlatıldı.
+09:01:29 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:01:30 [INFO] figion: Donanım kontrolü: kamera=OK
+09:01:30 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:01:31 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:01:32 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:01:40 [INFO] figion: Durum geçişi: READY → SCANNING
+09:01:40 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_090140 (id=26)
+09:01:40 [INFO] figion: Oturum başlatıldı: BATCH_20260509_090140
+09:01:40 [INFO] figion: Tarama başlatıldı — BATCH_20260509_090140
+09:01:53 [INFO] figion: Durum geçişi: SCANNING → READY
+09:01:53 [INFO] figion: Oturum sona erdi: BATCH_20260509_090140 — Toplam: 0, Kirli: 0
+09:01:53 [INFO] figion: Tarama durduruldu.
+09:05:35 [INFO] figion: Uygulama kapatılıyor…
+09:05:35 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:05:35 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:05:35 [INFO] figion: VideoProcessorWorker durduruldu.
+09:05:35 [INFO] figion: ImageArchiver durduruldu.
+09:05:35 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:05:40 [INFO] figion: Figion başlatılıyor…
+09:05:41 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:05:41 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:05:41 [INFO] figion: ImageArchiver başlatıldı.
+09:05:41 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:05:41 [INFO] figion: Donanım kontrolü: kamera=OK
+09:05:41 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:05:43 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:05:43 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:18:56 [INFO] figion: Application closing…
+09:18:56 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:18:56 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:18:56 [INFO] figion: VideoProcessorWorker durduruldu.
+09:18:56 [INFO] figion: ImageArchiver durduruldu.
+09:18:56 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:19:01 [INFO] figion: Figion başlatılıyor…
+09:19:02 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:19:02 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:19:02 [INFO] figion: ImageArchiver başlatıldı.
+09:19:02 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:19:03 [INFO] figion: Donanım kontrolü: kamera=OK
+09:19:03 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:19:04 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:19:04 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:19:15 [INFO] figion: Application closing…
+09:19:15 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:19:15 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:19:15 [INFO] figion: VideoProcessorWorker durduruldu.
+09:19:15 [INFO] figion: ImageArchiver durduruldu.
+09:19:15 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:19:20 [INFO] figion: Figion başlatılıyor…
+09:19:21 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:19:21 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:19:21 [INFO] figion: ImageArchiver başlatıldı.
+09:19:21 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:19:22 [INFO] figion: Donanım kontrolü: kamera=OK
+09:19:22 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:19:23 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:19:23 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:20:04 [INFO] figion: Application closing…
+09:20:04 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:20:04 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:20:04 [INFO] figion: VideoProcessorWorker durduruldu.
+09:20:04 [INFO] figion: ImageArchiver durduruldu.
+09:20:04 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:20:10 [INFO] figion: Figion başlatılıyor…
+09:20:10 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:20:10 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:20:10 [INFO] figion: ImageArchiver başlatıldı.
+09:20:11 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:20:11 [INFO] figion: Donanım kontrolü: kamera=OK
+09:20:11 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:20:12 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:20:13 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:24:44 [INFO] figion: Application closing…
+09:24:44 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:24:44 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:24:44 [INFO] figion: VideoProcessorWorker durduruldu.
+09:24:44 [INFO] figion: ImageArchiver durduruldu.
+09:24:44 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:24:51 [INFO] figion: Figion starting…
+09:24:51 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:24:51 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:24:51 [INFO] figion: ImageArchiver başlatıldı.
+09:24:51 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:24:52 [INFO] figion: Donanım kontrolü: kamera=OK
+09:24:52 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:24:53 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:24:53 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:24:56 [INFO] figion: Application closing…
+09:24:56 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:24:57 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:24:57 [INFO] figion: VideoProcessorWorker durduruldu.
+09:24:57 [INFO] figion: ImageArchiver durduruldu.
+09:24:57 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:25:03 [INFO] figion: Figion starting…
+09:25:03 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:25:03 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:25:03 [INFO] figion: ImageArchiver başlatıldı.
+09:25:03 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:25:04 [INFO] figion: Donanım kontrolü: kamera=OK
+09:25:04 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:25:05 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:25:05 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:25:25 [INFO] figion: Application closing…
+09:25:25 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:25:25 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:25:25 [INFO] figion: VideoProcessorWorker durduruldu.
+09:25:25 [INFO] figion: ImageArchiver durduruldu.
+09:25:25 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:25:31 [INFO] figion: Figion starting…
+09:25:31 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:25:31 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:25:31 [INFO] figion: ImageArchiver başlatıldı.
+09:25:31 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:25:32 [INFO] figion: Donanım kontrolü: kamera=OK
+09:25:32 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:25:33 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:25:33 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:26:57 [INFO] figion: Application closing…
+09:26:57 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:26:58 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:26:58 [INFO] figion: VideoProcessorWorker durduruldu.
+09:26:58 [INFO] figion: ImageArchiver durduruldu.
+09:26:58 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:27:04 [INFO] figion: Figion starting…
+09:27:04 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:27:04 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:27:04 [INFO] figion: ImageArchiver başlatıldı.
+09:27:04 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:27:04 [INFO] figion: Donanım kontrolü: kamera=OK
+09:27:04 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:27:05 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:27:05 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:36:20 [INFO] figion: Application closing…
+09:36:20 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:36:20 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:36:20 [INFO] figion: VideoProcessorWorker durduruldu.
+09:36:20 [INFO] figion: ImageArchiver durduruldu.
+09:36:20 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:36:26 [INFO] figion: Figion starting…
+09:36:26 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:36:26 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:36:26 [INFO] figion: ImageArchiver başlatıldı.
+09:36:26 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:36:27 [INFO] figion: Donanım kontrolü: kamera=OK
+09:36:27 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:36:28 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:36:28 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:36:34 [INFO] figion: Application closing…
+09:36:34 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:36:34 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:36:34 [INFO] figion: VideoProcessorWorker durduruldu.
+09:36:34 [INFO] figion: ImageArchiver durduruldu.
+09:36:34 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:36:40 [INFO] figion: Figion starting…
+09:36:40 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:36:40 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:36:40 [INFO] figion: ImageArchiver başlatıldı.
+09:36:40 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:36:40 [INFO] figion: Donanım kontrolü: kamera=OK
+09:36:40 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:36:41 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:36:42 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:39:17 [INFO] figion: Application closing…
+09:39:17 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:39:17 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:39:17 [INFO] figion: VideoProcessorWorker durduruldu.
+09:39:17 [INFO] figion: ImageArchiver durduruldu.
+09:39:17 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:39:24 [INFO] figion: Figion starting…
+09:39:24 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:39:24 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:39:24 [INFO] figion: ImageArchiver başlatıldı.
+09:39:24 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:39:24 [INFO] figion: Donanım kontrolü: kamera=OK
+09:39:24 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:39:25 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:39:26 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:39:41 [INFO] figion: Application closing…
+09:39:41 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:39:41 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:39:41 [INFO] figion: VideoProcessorWorker durduruldu.
+09:39:41 [INFO] figion: ImageArchiver durduruldu.
+09:39:41 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:39:47 [INFO] figion: Figion starting…
+09:39:47 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:39:47 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:39:47 [INFO] figion: ImageArchiver başlatıldı.
+09:39:47 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:39:48 [INFO] figion: Donanım kontrolü: kamera=OK
+09:39:48 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:39:49 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:39:49 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:41:23 [INFO] figion: Application closing…
+09:41:23 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:41:23 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:41:23 [INFO] figion: VideoProcessorWorker durduruldu.
+09:41:23 [INFO] figion: ImageArchiver durduruldu.
+09:41:23 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:41:29 [INFO] figion: Figion starting…
+09:41:29 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:41:29 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:41:29 [INFO] figion: ImageArchiver başlatıldı.
+09:41:30 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:41:30 [INFO] figion: Donanım kontrolü: kamera=OK
+09:41:30 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:41:31 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:41:31 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:41:39 [INFO] figion: Application closing…
+09:41:39 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:41:39 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:41:39 [INFO] figion: VideoProcessorWorker durduruldu.
+09:41:39 [INFO] figion: ImageArchiver durduruldu.
+09:41:39 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:41:45 [INFO] figion: Figion starting…
+09:41:45 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:41:45 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:41:45 [INFO] figion: ImageArchiver başlatıldı.
+09:41:46 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:41:46 [INFO] figion: Donanım kontrolü: kamera=OK
+09:41:46 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:41:47 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:41:48 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:42:16 [INFO] figion: Application closing…
+09:42:16 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:42:16 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:42:16 [INFO] figion: VideoProcessorWorker durduruldu.
+09:42:16 [INFO] figion: ImageArchiver durduruldu.
+09:42:16 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:42:23 [INFO] figion: Figion starting…
+09:42:23 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:42:23 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:42:23 [INFO] figion: ImageArchiver başlatıldı.
+09:42:23 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:42:24 [INFO] figion: Donanım kontrolü: kamera=OK
+09:42:24 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:42:25 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:42:25 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:42:48 [INFO] figion: Application closing…
+09:42:48 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:42:48 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:42:48 [INFO] figion: VideoProcessorWorker durduruldu.
+09:42:48 [INFO] figion: ImageArchiver durduruldu.
+09:42:48 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:42:55 [INFO] figion: Figion starting…
+09:42:55 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:42:55 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:42:55 [INFO] figion: ImageArchiver başlatıldı.
+09:42:55 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:42:56 [INFO] figion: Donanım kontrolü: kamera=OK
+09:42:56 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:42:57 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:42:57 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:43:27 [INFO] figion: Application closing…
+09:43:27 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:43:27 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:43:27 [INFO] figion: VideoProcessorWorker durduruldu.
+09:43:27 [INFO] figion: ImageArchiver durduruldu.
+09:43:27 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:43:33 [INFO] figion: Figion starting…
+09:43:33 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:43:33 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:43:33 [INFO] figion: ImageArchiver başlatıldı.
+09:43:33 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:43:34 [INFO] figion: Donanım kontrolü: kamera=OK
+09:43:34 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:43:35 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:43:35 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:43:52 [INFO] figion: Application closing…
+09:43:52 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:43:53 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:43:53 [INFO] figion: VideoProcessorWorker durduruldu.
+09:43:53 [INFO] figion: ImageArchiver durduruldu.
+09:43:53 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:43:59 [INFO] figion: Figion starting…
+09:43:59 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:43:59 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:43:59 [INFO] figion: ImageArchiver başlatıldı.
+09:43:59 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:44:00 [INFO] figion: Donanım kontrolü: kamera=OK
+09:44:00 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:44:01 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:44:01 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:44:11 [INFO] figion: Application closing…
+09:44:11 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:44:11 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:44:11 [INFO] figion: VideoProcessorWorker durduruldu.
+09:44:11 [INFO] figion: ImageArchiver durduruldu.
+09:44:11 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:44:18 [INFO] figion: Figion starting…
+09:44:18 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:44:18 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:44:18 [INFO] figion: ImageArchiver başlatıldı.
+09:44:18 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:44:18 [INFO] figion: Donanım kontrolü: kamera=OK
+09:44:18 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:44:19 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:44:20 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:46:08 [INFO] figion: Application closing…
+09:46:08 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:46:08 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:46:08 [INFO] figion: VideoProcessorWorker durduruldu.
+09:46:08 [INFO] figion: ImageArchiver durduruldu.
+09:46:08 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:46:15 [INFO] figion: Figion starting…
+09:46:15 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:46:15 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:46:15 [INFO] figion: ImageArchiver başlatıldı.
+09:46:15 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:46:15 [INFO] figion: Donanım kontrolü: kamera=OK
+09:46:15 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:46:17 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:46:17 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:46:18 [INFO] figion: Application closing…
+09:46:18 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:46:18 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:46:18 [INFO] figion: VideoProcessorWorker durduruldu.
+09:46:18 [INFO] figion: ImageArchiver durduruldu.
+09:46:18 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:46:24 [INFO] figion: Figion starting…
+09:46:24 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:46:24 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:46:24 [INFO] figion: ImageArchiver başlatıldı.
+09:46:25 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:46:25 [INFO] figion: Donanım kontrolü: kamera=OK
+09:46:25 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:46:26 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:46:26 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:46:37 [INFO] figion: Application closing…
+09:46:37 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:46:37 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:46:37 [INFO] figion: VideoProcessorWorker durduruldu.
+09:46:37 [INFO] figion: ImageArchiver durduruldu.
+09:46:37 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:46:43 [INFO] figion: Figion starting…
+09:46:43 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:46:43 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:46:43 [INFO] figion: ImageArchiver başlatıldı.
+09:46:43 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:46:44 [INFO] figion: Donanım kontrolü: kamera=OK
+09:46:44 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:46:45 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:46:45 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:48:13 [INFO] figion: Application closing…
+09:48:13 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:48:13 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:48:13 [INFO] figion: VideoProcessorWorker durduruldu.
+09:48:13 [INFO] figion: ImageArchiver durduruldu.
+09:48:13 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:48:20 [INFO] figion: Figion starting…
+09:48:20 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:48:20 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:48:20 [INFO] figion: ImageArchiver başlatıldı.
+09:48:20 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:48:21 [INFO] figion: Donanım kontrolü: kamera=OK
+09:48:21 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:48:22 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:48:22 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:48:44 [INFO] figion: Application closing…
+09:48:44 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:48:44 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:48:44 [INFO] figion: VideoProcessorWorker durduruldu.
+09:48:44 [INFO] figion: ImageArchiver durduruldu.
+09:48:44 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:48:50 [INFO] figion: Figion starting…
+09:48:50 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:48:50 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:48:50 [INFO] figion: ImageArchiver başlatıldı.
+09:48:50 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:48:51 [INFO] figion: Donanım kontrolü: kamera=OK
+09:48:51 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:48:52 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:48:52 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:49:14 [INFO] figion: Application closing…
+09:49:14 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:49:14 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:49:14 [INFO] figion: VideoProcessorWorker durduruldu.
+09:49:14 [INFO] figion: ImageArchiver durduruldu.
+09:49:14 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:49:21 [INFO] figion: Figion starting…
+09:49:21 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:49:21 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:49:21 [INFO] figion: ImageArchiver başlatıldı.
+09:49:21 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:49:21 [INFO] figion: Donanım kontrolü: kamera=OK
+09:49:21 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:49:22 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:49:22 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:49:24 [INFO] figion: Application closing…
+09:49:24 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:49:25 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:49:25 [INFO] figion: VideoProcessorWorker durduruldu.
+09:49:25 [INFO] figion: ImageArchiver durduruldu.
+09:49:25 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:49:31 [INFO] figion: Figion starting…
+09:49:31 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:49:31 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:49:31 [INFO] figion: ImageArchiver başlatıldı.
+09:49:31 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:49:32 [INFO] figion: Donanım kontrolü: kamera=OK
+09:49:32 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:49:33 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:49:33 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:49:47 [INFO] figion: Application closing…
+09:49:47 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:49:47 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:49:47 [INFO] figion: VideoProcessorWorker durduruldu.
+09:49:47 [INFO] figion: ImageArchiver durduruldu.
+09:49:47 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:49:54 [INFO] figion: Figion starting…
+09:49:54 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:49:54 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:49:54 [INFO] figion: ImageArchiver başlatıldı.
+09:49:54 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:49:54 [INFO] figion: Donanım kontrolü: kamera=OK
+09:49:54 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:49:55 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:49:56 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:53:30 [INFO] figion: Application closing…
+09:53:30 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:53:31 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:53:31 [INFO] figion: VideoProcessorWorker durduruldu.
+09:53:31 [INFO] figion: ImageArchiver durduruldu.
+09:53:31 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:53:37 [INFO] figion: Figion starting…
+09:53:37 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:53:37 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:53:37 [INFO] figion: ImageArchiver başlatıldı.
+09:53:37 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:53:38 [INFO] figion: Donanım kontrolü: kamera=OK
+09:53:38 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:53:39 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:53:39 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:53:43 [INFO] figion: Application closing…
+09:53:43 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:53:43 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:53:43 [INFO] figion: VideoProcessorWorker durduruldu.
+09:53:43 [INFO] figion: ImageArchiver durduruldu.
+09:53:43 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+09:53:49 [INFO] figion: Figion starting…
+09:53:49 [DEBUG] figion: Şema uygulandı / doğrulandı.
+09:53:49 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+09:53:49 [INFO] figion: ImageArchiver başlatıldı.
+09:53:49 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+09:53:50 [INFO] figion: Donanım kontrolü: kamera=OK
+09:53:50 [INFO] figion: Durum geçişi: INITIALIZING → READY
+09:53:51 [INFO] figion: VideoProcessorWorker başlatıldı.
+09:53:51 [INFO] figion: Kamera açıldı: index=0, 1280x720
+09:58:52 [INFO] figion: Application closing…
+09:58:52 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+09:58:52 [INFO] figion: Kamera bağlantısı kapatıldı.
+09:58:52 [INFO] figion: VideoProcessorWorker durduruldu.
+09:58:52 [INFO] figion: ImageArchiver durduruldu.
+09:58:52 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+10:00:25 [INFO] figion: Figion starting…
+10:00:25 [DEBUG] figion: Şema uygulandı / doğrulandı.
+10:00:25 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+10:00:25 [INFO] figion: ImageArchiver başlatıldı.
+10:00:25 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+10:00:25 [INFO] figion: Donanım kontrolü: kamera=OK
+10:00:25 [INFO] figion: Durum geçişi: INITIALIZING → READY
+10:00:26 [INFO] figion: VideoProcessorWorker başlatıldı.
+10:00:27 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:44:59 [INFO] figion: Figion starting…
+17:44:59 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:44:59 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:44:59 [INFO] figion: ImageArchiver başlatıldı.
+17:44:59 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:45:00 [INFO] figion: Donanım kontrolü: kamera=OK
+17:45:00 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:45:01 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:45:02 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:46:16 [INFO] figion: Application closing…
+17:46:16 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:46:17 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:46:17 [INFO] figion: VideoProcessorWorker durduruldu.
+17:46:17 [INFO] figion: ImageArchiver durduruldu.
+17:46:17 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:46:24 [INFO] figion: Figion starting…
+17:46:24 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:46:24 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:46:24 [INFO] figion: ImageArchiver başlatıldı.
+17:46:24 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:46:24 [INFO] figion: Donanım kontrolü: kamera=OK
+17:46:24 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:46:25 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:46:26 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:49:35 [INFO] figion: Application closing…
+17:49:35 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:49:35 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:49:35 [INFO] figion: VideoProcessorWorker durduruldu.
+17:49:35 [INFO] figion: ImageArchiver durduruldu.
+17:49:35 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:49:42 [INFO] figion: Figion starting…
+17:49:42 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:49:42 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:49:42 [INFO] figion: ImageArchiver başlatıldı.
+17:49:42 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:49:43 [INFO] figion: Donanım kontrolü: kamera=OK
+17:49:43 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:49:44 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:49:44 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:49:46 [INFO] figion: Application closing…
+17:49:46 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:49:46 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:49:46 [INFO] figion: VideoProcessorWorker durduruldu.
+17:49:46 [INFO] figion: ImageArchiver durduruldu.
+17:49:46 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:49:53 [INFO] figion: Figion starting…
+17:49:53 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:49:53 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:49:53 [INFO] figion: ImageArchiver başlatıldı.
+17:49:53 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:49:54 [INFO] figion: Donanım kontrolü: kamera=OK
+17:49:54 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:49:55 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:49:55 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:51:11 [INFO] figion: Application closing…
+17:51:11 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:51:11 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:51:11 [INFO] figion: VideoProcessorWorker durduruldu.
+17:51:11 [INFO] figion: ImageArchiver durduruldu.
+17:51:11 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:51:18 [INFO] figion: Figion starting…
+17:51:18 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:51:18 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:51:18 [INFO] figion: ImageArchiver başlatıldı.
+17:51:18 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:51:18 [INFO] figion: Donanım kontrolü: kamera=OK
+17:51:18 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:51:20 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:51:20 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:51:21 [INFO] figion: Application closing…
+17:51:21 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:51:22 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:51:22 [INFO] figion: VideoProcessorWorker durduruldu.
+17:51:22 [INFO] figion: ImageArchiver durduruldu.
+17:51:22 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:51:29 [INFO] figion: Figion starting…
+17:51:29 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:51:29 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:51:29 [INFO] figion: ImageArchiver başlatıldı.
+17:51:29 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:51:29 [INFO] figion: Donanım kontrolü: kamera=OK
+17:51:29 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:51:30 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:51:31 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:51:35 [INFO] figion: Application closing…
+17:51:35 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:51:35 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:51:35 [INFO] figion: VideoProcessorWorker durduruldu.
+17:51:35 [INFO] figion: ImageArchiver durduruldu.
+17:51:35 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:51:42 [INFO] figion: Figion starting…
+17:51:42 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:51:42 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:51:42 [INFO] figion: ImageArchiver başlatıldı.
+17:51:42 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:51:42 [INFO] figion: Donanım kontrolü: kamera=OK
+17:51:42 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:51:43 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:51:44 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:52:40 [INFO] figion: Application closing…
+17:52:40 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:52:41 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:52:41 [INFO] figion: VideoProcessorWorker durduruldu.
+17:52:41 [INFO] figion: ImageArchiver durduruldu.
+17:52:41 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:52:47 [INFO] figion: Figion starting…
+17:52:47 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:52:47 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:52:47 [INFO] figion: ImageArchiver başlatıldı.
+17:52:47 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:52:48 [INFO] figion: Donanım kontrolü: kamera=OK
+17:52:48 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:52:49 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:52:49 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:53:48 [INFO] figion: Application closing…
+17:53:48 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:53:48 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:53:48 [INFO] figion: VideoProcessorWorker durduruldu.
+17:53:48 [INFO] figion: ImageArchiver durduruldu.
+17:53:48 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:53:55 [INFO] figion: Figion starting…
+17:53:55 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:53:55 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:53:55 [INFO] figion: ImageArchiver başlatıldı.
+17:53:55 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:53:56 [INFO] figion: Donanım kontrolü: kamera=OK
+17:53:56 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:53:57 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:53:57 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:54:05 [INFO] figion: Application closing…
+17:54:05 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:54:05 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:54:05 [INFO] figion: VideoProcessorWorker durduruldu.
+17:54:05 [INFO] figion: ImageArchiver durduruldu.
+17:54:05 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:54:11 [INFO] figion: Figion starting…
+17:54:11 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:54:11 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:54:11 [INFO] figion: ImageArchiver başlatıldı.
+17:54:11 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:54:12 [INFO] figion: Donanım kontrolü: kamera=OK
+17:54:12 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:54:13 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:54:13 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:54:15 [INFO] figion: Application closing…
+17:54:15 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:54:15 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:54:15 [INFO] figion: VideoProcessorWorker durduruldu.
+17:54:15 [INFO] figion: ImageArchiver durduruldu.
+17:54:15 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:54:21 [INFO] figion: Figion starting…
+17:54:21 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:54:21 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:54:21 [INFO] figion: ImageArchiver başlatıldı.
+17:54:22 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:54:22 [INFO] figion: Donanım kontrolü: kamera=OK
+17:54:22 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:54:23 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:54:24 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:57:50 [INFO] figion: Application closing…
+17:57:50 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:57:50 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:57:50 [INFO] figion: VideoProcessorWorker durduruldu.
+17:57:50 [INFO] figion: ImageArchiver durduruldu.
+17:57:50 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:57:56 [INFO] figion: Figion starting…
+17:57:56 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:57:56 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:57:56 [INFO] figion: ImageArchiver başlatıldı.
+17:57:56 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:57:57 [INFO] figion: Donanım kontrolü: kamera=OK
+17:57:57 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:57:58 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:57:58 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:58:02 [INFO] figion: Application closing…
+17:58:02 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:58:02 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:58:02 [INFO] figion: VideoProcessorWorker durduruldu.
+17:58:02 [INFO] figion: ImageArchiver durduruldu.
+17:58:02 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:58:09 [INFO] figion: Figion starting…
+17:58:09 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:58:09 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:58:09 [INFO] figion: ImageArchiver başlatıldı.
+17:58:09 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:58:09 [INFO] figion: Donanım kontrolü: kamera=OK
+17:58:09 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:58:11 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:58:11 [INFO] figion: Kamera açıldı: index=0, 1280x720
+17:58:58 [INFO] figion: Application closing…
+17:58:58 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+17:58:59 [INFO] figion: Kamera bağlantısı kapatıldı.
+17:58:59 [INFO] figion: VideoProcessorWorker durduruldu.
+17:58:59 [INFO] figion: ImageArchiver durduruldu.
+17:58:59 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+17:59:06 [INFO] figion: Figion starting…
+17:59:06 [DEBUG] figion: Şema uygulandı / doğrulandı.
+17:59:06 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+17:59:06 [INFO] figion: ImageArchiver başlatıldı.
+17:59:06 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+17:59:06 [INFO] figion: Donanım kontrolü: kamera=OK
+17:59:06 [INFO] figion: Durum geçişi: INITIALIZING → READY
+17:59:08 [INFO] figion: VideoProcessorWorker başlatıldı.
+17:59:08 [INFO] figion: Kamera açıldı: index=0, 1280x720
+18:13:09 [INFO] figion: Application closing…
+18:13:09 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+18:13:10 [INFO] figion: Kamera bağlantısı kapatıldı.
+18:13:10 [INFO] figion: VideoProcessorWorker durduruldu.
+18:13:10 [INFO] figion: ImageArchiver durduruldu.
+18:13:10 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+18:13:17 [INFO] figion: Figion starting…
+18:13:17 [DEBUG] figion: Şema uygulandı / doğrulandı.
+18:13:17 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+18:13:17 [INFO] figion: ImageArchiver başlatıldı.
+18:13:17 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+18:13:17 [INFO] figion: Donanım kontrolü: kamera=OK
+18:13:17 [INFO] figion: Durum geçişi: INITIALIZING → READY
+18:13:18 [INFO] figion: VideoProcessorWorker başlatıldı.
+18:13:19 [INFO] figion: Kamera açıldı: index=0, 1280x720
+18:13:37 [INFO] figion: Durum geçişi: READY → SCANNING
+18:13:37 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_181337 (id=27)
+18:13:37 [INFO] figion: Oturum başlatıldı: BATCH_20260509_181337
+18:13:37 [INFO] figion: Scanning started — BATCH_20260509_181337
+18:13:38 [INFO] figion: Durum geçişi: SCANNING → READY
+18:13:38 [INFO] figion: Oturum sona erdi: BATCH_20260509_181337 — Toplam: 0, Kirli: 0
+18:13:38 [INFO] figion: Scanning stopped.
+18:13:51 [INFO] figion: Oturum silindi: BATCH_20260509_181337
+18:13:58 [INFO] figion: Oturum silindi: BATCH_20260509_090140
+18:14:01 [INFO] figion: Oturum silindi: BATCH_20260509_084631
+18:14:03 [INFO] figion: Oturum silindi: BATCH_20260509_084623
+18:50:03 [INFO] figion: Application closing…
+18:50:03 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+18:50:03 [INFO] figion: Kamera bağlantısı kapatıldı.
+18:50:03 [INFO] figion: VideoProcessorWorker durduruldu.
+18:50:03 [INFO] figion: ImageArchiver durduruldu.
+18:50:03 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+18:50:10 [INFO] figion: Figion starting…
+18:50:10 [DEBUG] figion: Şema uygulandı / doğrulandı.
+18:50:10 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+18:50:10 [INFO] figion: ImageArchiver başlatıldı.
+18:50:10 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+18:50:11 [INFO] figion: Donanım kontrolü: kamera=OK
+18:50:11 [INFO] figion: Durum geçişi: INITIALIZING → READY
+18:50:12 [INFO] figion: VideoProcessorWorker başlatıldı.
+18:50:12 [INFO] figion: Kamera açıldı: index=0, 1280x720
+18:54:23 [INFO] figion: Application closing…
+18:54:23 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+18:54:24 [INFO] figion: Kamera bağlantısı kapatıldı.
+18:54:24 [INFO] figion: VideoProcessorWorker durduruldu.
+18:54:24 [INFO] figion: ImageArchiver durduruldu.
+18:54:24 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+18:54:30 [INFO] figion: Figion starting…
+18:54:30 [DEBUG] figion: Şema uygulandı / doğrulandı.
+18:54:30 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+18:54:30 [INFO] figion: ImageArchiver başlatıldı.
+18:54:30 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+18:54:31 [INFO] figion: Donanım kontrolü: kamera=OK
+18:54:31 [INFO] figion: Durum geçişi: INITIALIZING → READY
+18:54:32 [INFO] figion: VideoProcessorWorker başlatıldı.
+18:54:32 [INFO] figion: Kamera açıldı: index=0, 1280x720
+21:40:41 [INFO] figion: Application closing…
+21:40:41 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+21:40:41 [INFO] figion: Kamera bağlantısı kapatıldı.
+21:40:41 [INFO] figion: VideoProcessorWorker durduruldu.
+21:40:41 [INFO] figion: ImageArchiver durduruldu.
+21:40:41 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+21:40:53 [INFO] figion: Figion starting…
+21:40:53 [DEBUG] figion: Şema uygulandı / doğrulandı.
+21:40:53 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+21:40:53 [INFO] figion: ImageArchiver başlatıldı.
+21:40:53 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+21:40:55 [INFO] figion: Donanım kontrolü: kamera=OK
+21:40:55 [INFO] figion: Durum geçişi: INITIALIZING → READY
+21:40:56 [INFO] figion: VideoProcessorWorker başlatıldı.
+21:40:56 [INFO] figion: Kamera açıldı: index=0, 1280x720
+21:41:00 [INFO] figion: Application closing…
+21:41:00 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+21:41:00 [INFO] figion: Kamera bağlantısı kapatıldı.
+21:41:00 [INFO] figion: VideoProcessorWorker durduruldu.
+21:41:00 [INFO] figion: ImageArchiver durduruldu.
+21:41:00 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+21:41:07 [INFO] figion: Figion starting…
+21:41:07 [DEBUG] figion: Şema uygulandı / doğrulandı.
+21:41:07 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+21:41:07 [INFO] figion: ImageArchiver başlatıldı.
+21:41:07 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+21:41:07 [INFO] figion: Donanım kontrolü: kamera=OK
+21:41:07 [INFO] figion: Durum geçişi: INITIALIZING → READY
+21:41:08 [INFO] figion: VideoProcessorWorker başlatıldı.
+21:41:09 [INFO] figion: Kamera açıldı: index=0, 1280x720
+21:46:40 [INFO] figion: Durum geçişi: READY → SCANNING
+21:46:40 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_214640 (id=28)
+21:46:40 [INFO] figion: Oturum başlatıldı: BATCH_20260509_214640
+21:46:40 [INFO] figion: Scanning started — BATCH_20260509_214640
+21:46:59 [INFO] figion: Durum geçişi: SCANNING → READY
+21:46:59 [INFO] figion: Oturum sona erdi: BATCH_20260509_214640 — Toplam: 0, Kirli: 0
+21:46:59 [INFO] figion: Scanning stopped.
+21:52:09 [INFO] figion: Session deleted: BATCH_20260509_214640
+21:52:14 [INFO] figion: Session deleted: BATCH_20260429_071951
+21:52:17 [INFO] figion: Session deleted: BATCH_20260429_071250
+22:14:42 [INFO] figion: Figion starting…
+22:14:42 [DEBUG] figion: Şema uygulandı / doğrulandı.
+22:14:42 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+22:14:42 [INFO] figion: ImageArchiver başlatıldı.
+22:14:42 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+22:14:43 [INFO] figion: Donanım kontrolü: kamera=OK
+22:14:43 [INFO] figion: Durum geçişi: INITIALIZING → READY
+22:14:44 [INFO] figion: VideoProcessorWorker başlatıldı.
+22:14:44 [INFO] figion: Kamera açıldı: index=0, 1280x720
+22:15:42 [INFO] figion: Durum geçişi: READY → SCANNING
+22:15:42 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_221542 (id=29)
+22:15:42 [INFO] figion: Oturum başlatıldı: BATCH_20260509_221542
+22:15:42 [INFO] figion: Scanning started — BATCH_20260509_221542
+22:15:44 [DEBUG] figion: Slot 1 tetiklendi: Aflatoxin (81%)
+22:15:44 [DEBUG] figion: Slot 2 tetiklendi: Healthy (96%)
+22:15:44 [DEBUG] figion: Slot 3 tetiklendi: Aflatoxin (98%)
+22:15:46 [DEBUG] figion: Slot 4 tetiklendi: Aflatoxin (63%)
+22:15:49 [DEBUG] figion: Slot 5 tetiklendi: Aflatoxin (60%)
+22:15:50 [DEBUG] figion: Slot 7 tetiklendi: Healthy (67%)
+22:15:52 [DEBUG] figion: Slot 8 tetiklendi: Healthy (75%)
+22:15:53 [DEBUG] figion: Slot 2 kapandı (incir ayrıldı).
+22:15:53 [DEBUG] figion: Slot 3 kapandı (incir ayrıldı).
+22:15:53 [DEBUG] figion: Slot 4 kapandı (incir ayrıldı).
+22:15:55 [DEBUG] figion: Slot 7 kapandı (incir ayrıldı).
+22:15:56 [DEBUG] figion: Slot 1 kapandı (incir ayrıldı).
+22:15:56 [DEBUG] figion: Slot 8 kapandı (incir ayrıldı).
+22:16:01 [DEBUG] figion: Slot 28 tetiklendi: Aflatoxin (77%)
+22:16:03 [DEBUG] figion: Slot 30 tetiklendi: Healthy (86%)
+22:16:03 [DEBUG] figion: Slot 31 tetiklendi: Aflatoxin (98%)
+22:16:04 [DEBUG] figion: Slot 32 tetiklendi: Healthy (97%)
+22:16:04 [DEBUG] figion: Slot 33 tetiklendi: Healthy (91%)
+22:16:07 [DEBUG] figion: Slot 5 kapandı (incir ayrıldı).
+22:16:16 [DEBUG] figion: Slot 39 tetiklendi: Aflatoxin (89%)
+22:16:22 [DEBUG] figion: Slot 39 kapandı (incir ayrıldı).
+22:16:24 [DEBUG] figion: Slot 33 kapandı (incir ayrıldı).
+22:16:25 [DEBUG] figion: Slot 28 kapandı (incir ayrıldı).
+22:16:25 [DEBUG] figion: Slot 30 kapandı (incir ayrıldı).
+22:16:25 [DEBUG] figion: Slot 32 kapandı (incir ayrıldı).
+22:16:28 [DEBUG] figion: Slot 62 tetiklendi: Healthy (85%)
+22:16:35 [DEBUG] figion: Slot 79 tetiklendi: Healthy (81%)
+22:16:35 [DEBUG] figion: Slot 80 tetiklendi: Aflatoxin (94%)
+22:16:35 [DEBUG] figion: Slot 81 tetiklendi: Healthy (95%)
+22:16:35 [DEBUG] figion: Slot 82 tetiklendi: Aflatoxin (96%)
+22:16:39 [DEBUG] figion: Slot 31 kapandı (incir ayrıldı).
+22:16:42 [DEBUG] figion: Slot 62 kapandı (incir ayrıldı).
+22:16:43 [DEBUG] figion: Slot 86 tetiklendi: Healthy (81%)
+22:16:45 [DEBUG] figion: Slot 87 tetiklendi: Aflatoxin (78%)
+22:16:45 [DEBUG] figion: Slot 88 tetiklendi: Healthy (72%)
+22:16:51 [DEBUG] figion: Slot 89 tetiklendi: Healthy (78%)
+22:16:51 [DEBUG] figion: Slot 90 tetiklendi: Aflatoxin (97%)
+22:16:51 [DEBUG] figion: Slot 91 tetiklendi: Healthy (86%)
+22:16:51 [DEBUG] figion: Slot 92 tetiklendi: Aflatoxin (98%)
+22:16:51 [DEBUG] figion: Slot 93 tetiklendi: Healthy (89%)
+22:16:52 [DEBUG] figion: Slot 95 tetiklendi: Healthy (61%)
+22:16:56 [DEBUG] figion: Slot 86 kapandı (incir ayrıldı).
+22:16:58 [DEBUG] figion: Slot 79 kapandı (incir ayrıldı).
+22:16:58 [DEBUG] figion: Slot 80 kapandı (incir ayrıldı).
+22:16:58 [DEBUG] figion: Slot 81 kapandı (incir ayrıldı).
+22:16:58 [DEBUG] figion: Slot 82 kapandı (incir ayrıldı).
+22:16:58 [DEBUG] figion: Slot 87 kapandı (incir ayrıldı).
+22:16:58 [DEBUG] figion: Slot 88 kapandı (incir ayrıldı).
+22:16:59 [DEBUG] figion: Slot 97 tetiklendi: Aflatoxin (83%)
+22:17:10 [DEBUG] figion: Slot 97 kapandı (incir ayrıldı).
+22:17:11 [DEBUG] figion: Slot 93 kapandı (incir ayrıldı).
+22:17:15 [DEBUG] figion: Slot 109 tetiklendi: Healthy (94%)
+22:17:15 [DEBUG] figion: Slot 95 kapandı (incir ayrıldı).
+22:17:16 [DEBUG] figion: Slot 90 kapandı (incir ayrıldı).
+22:17:16 [DEBUG] figion: Slot 91 kapandı (incir ayrıldı).
+22:17:16 [DEBUG] figion: Slot 92 kapandı (incir ayrıldı).
+22:17:16 [DEBUG] figion: Slot 89 kapandı (incir ayrıldı).
+22:17:20 [DEBUG] figion: Slot 109 kapandı (incir ayrıldı).
+22:17:33 [INFO] figion: Durum geçişi: SCANNING → READY
+22:17:33 [INFO] figion: Oturum sona erdi: BATCH_20260509_221542 — Toplam: 29, Kirli: 13
+22:17:33 [INFO] figion: Scanning stopped.
+22:27:46 [INFO] figion: Durum geçişi: READY → SCANNING
+22:27:46 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_222746 (id=30)
+22:27:46 [INFO] figion: Oturum başlatıldı: BATCH_20260509_222746
+22:27:46 [INFO] figion: Scanning started — BATCH_20260509_222746
+22:27:47 [DEBUG] figion: Slot 0 tetiklendi: Healthy (88%)
+22:28:12 [DEBUG] figion: Slot 2 tetiklendi: Healthy (80%)
+22:28:15 [DEBUG] figion: Slot 0 kapandı (incir ayrıldı).
+22:28:18 [DEBUG] figion: Slot 10 tetiklendi: Healthy (96%)
+22:28:18 [DEBUG] figion: Slot 11 tetiklendi: Healthy (98%)
+22:28:18 [DEBUG] figion: Slot 12 tetiklendi: Healthy (98%)
+22:28:18 [DEBUG] figion: Slot 13 tetiklendi: Healthy (91%)
+22:28:20 [DEBUG] figion: Slot 14 tetiklendi: Healthy (97%)
+22:28:20 [DEBUG] figion: Slot 15 tetiklendi: Healthy (99%)
+22:28:21 [DEBUG] figion: Slot 2 kapandı (incir ayrıldı).
+22:28:23 [DEBUG] figion: Slot 10 kapandı (incir ayrıldı).
+22:28:23 [DEBUG] figion: Slot 11 kapandı (incir ayrıldı).
+22:28:23 [DEBUG] figion: Slot 12 kapandı (incir ayrıldı).
+22:28:30 [DEBUG] figion: Slot 13 kapandı (incir ayrıldı).
+22:28:36 [DEBUG] figion: Slot 29 tetiklendi: Healthy (64%)
+22:28:41 [DEBUG] figion: Slot 33 tetiklendi: Healthy (93%)
+22:28:42 [INFO] figion: Durum geçişi: SCANNING → READY
+22:28:42 [INFO] figion: Oturum sona erdi: BATCH_20260509_222746 — Toplam: 10, Kirli: 0
+22:28:42 [INFO] figion: Scanning stopped.
+22:29:33 [INFO] figion: Durum geçişi: READY → SCANNING
+22:29:33 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_222933 (id=31)
+22:29:33 [INFO] figion: Oturum başlatıldı: BATCH_20260509_222933
+22:29:33 [INFO] figion: Scanning started — BATCH_20260509_222933
+22:29:35 [DEBUG] figion: Slot 0 tetiklendi: Healthy (76%)
+22:29:42 [DEBUG] figion: Slot 12 tetiklendi: Aflatoxin (93%)
+22:29:43 [DEBUG] figion: Slot 0 kapandı (incir ayrıldı).
+22:29:51 [DEBUG] figion: Slot 17 tetiklendi: Healthy (96%)
+22:29:51 [DEBUG] figion: Slot 18 tetiklendi: Aflatoxin (94%)
+22:29:55 [DEBUG] figion: Slot 25 tetiklendi: Healthy (96%)
+22:29:55 [DEBUG] figion: Slot 34 tetiklendi: Healthy (89%)
+22:29:56 [DEBUG] figion: Slot 32 tetiklendi: Aflatoxin (92%)
+22:29:56 [DEBUG] figion: Slot 33 tetiklendi: Healthy (99%)
+22:29:56 [DEBUG] figion: Slot 35 tetiklendi: Healthy (75%)
+22:29:58 [DEBUG] figion: Slot 36 tetiklendi: Healthy (97%)
+22:29:59 [DEBUG] figion: Slot 38 tetiklendi: Healthy (96%)
+22:30:01 [DEBUG] figion: Slot 39 tetiklendi: Healthy (83%)
+22:30:01 [DEBUG] figion: Slot 12 kapandı (incir ayrıldı).
+22:30:01 [DEBUG] figion: Slot 17 kapandı (incir ayrıldı).
+22:30:01 [DEBUG] figion: Slot 18 kapandı (incir ayrıldı).
+22:30:05 [DEBUG] figion: Slot 25 kapandı (incir ayrıldı).
+22:30:06 [DEBUG] figion: Slot 34 kapandı (incir ayrıldı).
+22:30:07 [DEBUG] figion: Slot 43 tetiklendi: Healthy (88%)
+22:30:14 [DEBUG] figion: Slot 51 tetiklendi: Healthy (62%)
+22:30:18 [DEBUG] figion: Slot 57 tetiklendi: Healthy (96%)
+22:30:18 [DEBUG] figion: Slot 58 tetiklendi: Aflatoxin (91%)
+22:30:19 [DEBUG] figion: Slot 62 tetiklendi: Healthy (67%)
+22:30:20 [DEBUG] figion: Slot 63 tetiklendi: Healthy (78%)
+22:30:20 [DEBUG] figion: Slot 32 kapandı (incir ayrıldı).
+22:30:20 [DEBUG] figion: Slot 43 kapandı (incir ayrıldı).
+22:30:24 [DEBUG] figion: Slot 33 kapandı (incir ayrıldı).
+22:30:24 [DEBUG] figion: Slot 36 kapandı (incir ayrıldı).
+22:30:24 [DEBUG] figion: Slot 39 kapandı (incir ayrıldı).
+22:30:24 [DEBUG] figion: Slot 51 kapandı (incir ayrıldı).
+22:30:26 [DEBUG] figion: Slot 67 tetiklendi: Healthy (98%)
+22:30:26 [DEBUG] figion: Slot 69 tetiklendi: Healthy (94%)
+22:30:33 [DEBUG] figion: Slot 57 kapandı (incir ayrıldı).
+22:30:33 [DEBUG] figion: Slot 58 kapandı (incir ayrıldı).
+22:30:33 [DEBUG] figion: Slot 63 kapandı (incir ayrıldı).
+22:30:41 [DEBUG] figion: Slot 74 tetiklendi: Aflatoxin (88%)
+22:30:42 [DEBUG] figion: Slot 75 tetiklendi: Healthy (90%)
+22:30:44 [DEBUG] figion: Slot 62 kapandı (incir ayrıldı).
+22:30:48 [DEBUG] figion: Slot 80 tetiklendi: Healthy (83%)
+22:30:52 [DEBUG] figion: Slot 35 kapandı (incir ayrıldı).
+22:30:52 [DEBUG] figion: Slot 38 kapandı (incir ayrıldı).
+22:30:52 [DEBUG] figion: Slot 69 kapandı (incir ayrıldı).
+22:30:52 [DEBUG] figion: Slot 74 kapandı (incir ayrıldı).
+22:30:52 [DEBUG] figion: Slot 75 kapandı (incir ayrıldı).
+22:30:53 [DEBUG] figion: Slot 67 kapandı (incir ayrıldı).
+22:30:54 [DEBUG] figion: Slot 86 tetiklendi: Healthy (77%)
+22:30:54 [DEBUG] figion: Slot 80 kapandı (incir ayrıldı).
+22:30:56 [DEBUG] figion: Slot 86 kapandı (incir ayrıldı).
+22:30:59 [INFO] figion: Durum geçişi: SCANNING → READY
+22:30:59 [INFO] figion: Oturum sona erdi: BATCH_20260509_222933 — Toplam: 24, Kirli: 5
+22:30:59 [INFO] figion: Scanning stopped.
+22:31:42 [INFO] figion: Application closing…
+22:31:42 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+22:31:42 [INFO] figion: Kamera bağlantısı kapatıldı.
+22:31:42 [INFO] figion: VideoProcessorWorker durduruldu.
+22:31:42 [INFO] figion: ImageArchiver durduruldu.
+22:31:42 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+22:31:48 [INFO] figion: Figion starting…
+22:31:48 [DEBUG] figion: Şema uygulandı / doğrulandı.
+22:31:48 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+22:31:48 [INFO] figion: ImageArchiver başlatıldı.
+22:31:48 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+22:31:49 [INFO] figion: Donanım kontrolü: kamera=OK
+22:31:49 [INFO] figion: Durum geçişi: INITIALIZING → READY
+22:31:50 [INFO] figion: VideoProcessorWorker başlatıldı.
+22:31:51 [INFO] figion: Kamera açıldı: index=0, 1280x720
+22:32:50 [INFO] figion: Durum geçişi: READY → SCANNING
+22:32:50 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_223250 (id=32)
+22:32:50 [INFO] figion: Oturum başlatıldı: BATCH_20260509_223250
+22:32:50 [INFO] figion: Scanning started — BATCH_20260509_223250
+22:32:53 [DEBUG] figion: Slot 0 tetiklendi: Healthy (70%)
+22:32:53 [DEBUG] figion: Slot 1 tetiklendi: Healthy (93%)
+22:33:06 [DEBUG] figion: Slot 15 tetiklendi: Healthy (92%)
+22:33:06 [DEBUG] figion: Slot 16 tetiklendi: Aflatoxin (88%)
+22:33:06 [DEBUG] figion: Slot 17 tetiklendi: Healthy (96%)
+22:33:06 [DEBUG] figion: Slot 18 tetiklendi: Healthy (97%)
+22:33:06 [DEBUG] figion: Slot 19 tetiklendi: Healthy (98%)
+22:33:12 [DEBUG] figion: Slot 0 kapandı.
+22:33:16 [DEBUG] figion: Slot 1 kapandı.
+22:33:45 [DEBUG] figion: Slot 50 tetiklendi: Healthy (98%)
+22:33:45 [DEBUG] figion: Slot 52 tetiklendi: Healthy (86%)
+22:33:50 [DEBUG] figion: Slot 54 tetiklendi: Healthy (69%)
+22:33:51 [DEBUG] figion: Slot 15 kapandı.
+22:33:51 [DEBUG] figion: Slot 16 kapandı.
+22:33:51 [DEBUG] figion: Slot 17 kapandı.
+22:33:51 [DEBUG] figion: Slot 18 kapandı.
+22:33:51 [DEBUG] figion: Slot 19 kapandı.
+22:34:10 [DEBUG] figion: Slot 66 tetiklendi: Healthy (80%)
+22:34:10 [DEBUG] figion: Slot 67 tetiklendi: Aflatoxin (93%)
+22:34:10 [DEBUG] figion: Slot 68 tetiklendi: Healthy (98%)
+22:34:12 [DEBUG] figion: Slot 71 tetiklendi: Healthy (97%)
+22:34:14 [DEBUG] figion: Slot 72 tetiklendi: Healthy (99%)
+22:34:18 [DEBUG] figion: Slot 50 kapandı.
+22:34:18 [DEBUG] figion: Slot 52 kapandı.
+22:34:20 [DEBUG] figion: Slot 54 kapandı.
+22:34:35 [DEBUG] figion: Slot 74 tetiklendi: Healthy (99%)
+22:34:52 [DEBUG] figion: Slot 74 kapandı.
+22:34:54 [DEBUG] figion: Slot 66 kapandı.
+22:34:54 [DEBUG] figion: Slot 67 kapandı.
+22:34:54 [DEBUG] figion: Slot 71 kapandı.
+22:34:54 [DEBUG] figion: Slot 72 kapandı.
+22:34:55 [DEBUG] figion: Slot 68 kapandı.
+22:34:55 [INFO] figion: Durum geçişi: SCANNING → READY
+22:34:55 [INFO] figion: Oturum sona erdi: BATCH_20260509_223250 — Toplam: 16, Kirli: 2
+22:34:55 [INFO] figion: Scanning stopped.
+22:35:41 [INFO] figion: Application closing…
+22:35:41 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+22:35:41 [INFO] figion: Kamera bağlantısı kapatıldı.
+22:35:41 [INFO] figion: VideoProcessorWorker durduruldu.
+22:35:41 [INFO] figion: ImageArchiver durduruldu.
+22:35:41 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+22:35:48 [INFO] figion: Figion starting…
+22:35:48 [DEBUG] figion: Şema uygulandı / doğrulandı.
+22:35:48 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+22:35:48 [INFO] figion: ImageArchiver başlatıldı.
+22:35:48 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+22:35:49 [INFO] figion: Donanım kontrolü: kamera=OK
+22:35:49 [INFO] figion: Durum geçişi: INITIALIZING → READY
+22:35:50 [INFO] figion: VideoProcessorWorker başlatıldı.
+22:35:50 [INFO] figion: Kamera açıldı: index=0, 1280x720
+22:36:10 [INFO] figion: Durum geçişi: READY → SCANNING
+22:36:10 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_223610 (id=33)
+22:36:10 [INFO] figion: Oturum başlatıldı: BATCH_20260509_223610
+22:36:10 [INFO] figion: Scanning started — BATCH_20260509_223610
+22:36:19 [DEBUG] figion: Slot 10 tetiklendi: Aflatoxin (90%)
+22:36:19 [DEBUG] figion: Slot 9 tetiklendi: Healthy (86%)
+22:36:19 [DEBUG] figion: Slot 11 tetiklendi: Healthy (96%)
+22:36:19 [DEBUG] figion: Slot 12 tetiklendi: Healthy (96%)
+22:36:21 [DEBUG] figion: Slot 13 tetiklendi: Healthy (63%)
+22:36:25 [DEBUG] figion: Slot 15 tetiklendi: Healthy (77%)
+22:36:33 [DEBUG] figion: Slot 21 tetiklendi: Healthy (81%)
+22:36:40 [DEBUG] figion: Slot 13 kapandı (incir ayrıldı).
+22:36:40 [DEBUG] figion: Slot 15 kapandı (incir ayrıldı).
+22:36:42 [DEBUG] figion: Slot 30 tetiklendi: Aflatoxin (95%)
+22:36:42 [DEBUG] figion: Slot 31 tetiklendi: Healthy (75%)
+22:36:42 [DEBUG] figion: Slot 32 tetiklendi: Healthy (87%)
+22:36:42 [DEBUG] figion: Slot 33 tetiklendi: Healthy (91%)
+22:36:42 [DEBUG] figion: Slot 34 tetiklendi: Healthy (91%)
+22:36:44 [DEBUG] figion: Slot 10 kapandı (incir ayrıldı).
+22:36:47 [DEBUG] figion: Slot 11 kapandı (incir ayrıldı).
+22:36:47 [DEBUG] figion: Slot 12 kapandı (incir ayrıldı).
+22:36:47 [DEBUG] figion: Slot 21 kapandı (incir ayrıldı).
+22:36:48 [DEBUG] figion: Slot 38 tetiklendi: Aflatoxin (95%)
+22:36:48 [DEBUG] figion: Slot 9 kapandı (incir ayrıldı).
+22:36:49 [DEBUG] figion: Slot 43 tetiklendi: Healthy (87%)
+22:36:51 [DEBUG] figion: Slot 31 kapandı (incir ayrıldı).
+22:36:52 [DEBUG] figion: Slot 34 kapandı (incir ayrıldı).
+22:36:53 [DEBUG] figion: Slot 30 kapandı (incir ayrıldı).
+22:36:56 [DEBUG] figion: Slot 57 tetiklendi: Healthy (91%)
+22:36:56 [DEBUG] figion: Slot 58 tetiklendi: Healthy (98%)
+22:36:56 [DEBUG] figion: Slot 43 kapandı (incir ayrıldı).
+22:36:56 [DEBUG] figion: Slot 59 tetiklendi: Healthy (63%)
+22:36:56 [DEBUG] figion: Slot 32 kapandı (incir ayrıldı).
+22:36:56 [DEBUG] figion: Slot 33 kapandı (incir ayrıldı).
+22:36:56 [DEBUG] figion: Slot 38 kapandı (incir ayrıldı).
+22:36:59 [DEBUG] figion: Slot 57 kapandı (incir ayrıldı).
+22:36:59 [DEBUG] figion: Slot 58 kapandı (incir ayrıldı).
+22:36:59 [DEBUG] figion: Slot 59 kapandı (incir ayrıldı).
+22:37:00 [INFO] figion: Durum geçişi: SCANNING → READY
+22:37:00 [INFO] figion: Oturum sona erdi: BATCH_20260509_223610 — Toplam: 17, Kirli: 3
+22:37:00 [INFO] figion: Scanning stopped.
+22:42:25 [INFO] figion: Durum geçişi: READY → SCANNING
+22:42:25 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_224225 (id=34)
+22:42:25 [INFO] figion: Oturum başlatıldı: BATCH_20260509_224225
+22:42:25 [INFO] figion: Scanning started — BATCH_20260509_224225
+22:42:28 [DEBUG] figion: Slot 0 tetiklendi: Healthy (96%)
+22:42:28 [DEBUG] figion: Slot 1 tetiklendi: Healthy (74%)
+22:42:30 [DEBUG] figion: Slot 3 tetiklendi: Healthy (98%)
+22:42:31 [DEBUG] figion: Slot 4 tetiklendi: Healthy (99%)
+22:42:32 [DEBUG] figion: Slot 0 kapandı (incir ayrıldı).
+22:42:32 [DEBUG] figion: Slot 1 kapandı (incir ayrıldı).
+22:42:37 [DEBUG] figion: Slot 10 tetiklendi: Healthy (61%)
+22:42:38 [DEBUG] figion: Slot 4 kapandı (incir ayrıldı).
+22:43:05 [DEBUG] figion: Slot 19 tetiklendi: Healthy (75%)
+22:43:07 [DEBUG] figion: Slot 21 tetiklendi: Aflatoxin (93%)
+22:43:07 [DEBUG] figion: Slot 22 tetiklendi: Healthy (73%)
+22:43:07 [DEBUG] figion: Slot 23 tetiklendi: Healthy (83%)
+22:43:08 [DEBUG] figion: Slot 3 kapandı (incir ayrıldı).
+22:43:08 [DEBUG] figion: Slot 10 kapandı (incir ayrıldı).
+22:43:11 [DEBUG] figion: Slot 28 tetiklendi: Healthy (92%)
+22:43:12 [DEBUG] figion: Slot 29 tetiklendi: Healthy (98%)
+22:43:12 [DEBUG] figion: Slot 30 tetiklendi: Healthy (98%)
+22:43:17 [DEBUG] figion: Slot 19 kapandı (incir ayrıldı).
+22:43:22 [DEBUG] figion: Slot 29 kapandı (incir ayrıldı).
+22:43:28 [DEBUG] figion: Slot 36 tetiklendi: Healthy (97%)
+22:43:34 [DEBUG] figion: Slot 30 kapandı (incir ayrıldı).
+22:43:34 [DEBUG] figion: Slot 43 tetiklendi: Healthy (97%)
+22:43:35 [DEBUG] figion: Slot 45 tetiklendi: Healthy (99%)
+22:43:36 [DEBUG] figion: Slot 21 kapandı (incir ayrıldı).
+22:43:36 [DEBUG] figion: Slot 22 kapandı (incir ayrıldı).
+22:43:36 [DEBUG] figion: Slot 23 kapandı (incir ayrıldı).
+22:43:36 [DEBUG] figion: Slot 28 kapandı (incir ayrıldı).
+22:43:36 [DEBUG] figion: Slot 36 kapandı (incir ayrıldı).
+22:43:37 [DEBUG] figion: Slot 43 kapandı (incir ayrıldı).
+22:43:38 [DEBUG] figion: Slot 45 kapandı (incir ayrıldı).
+22:48:17 [INFO] figion: Durum geçişi: SCANNING → READY
+22:48:17 [INFO] figion: Oturum sona erdi: BATCH_20260509_224225 — Toplam: 15, Kirli: 1
+22:48:17 [INFO] figion: Scanning stopped.
+23:00:22 [INFO] figion: Application closing…
+23:00:22 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+23:00:22 [INFO] figion: Kamera bağlantısı kapatıldı.
+23:00:22 [INFO] figion: VideoProcessorWorker durduruldu.
+23:00:22 [INFO] figion: ImageArchiver durduruldu.
+23:00:22 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+23:00:30 [INFO] figion: Figion starting…
+23:00:30 [DEBUG] figion: Şema uygulandı / doğrulandı.
+23:00:30 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+23:00:30 [INFO] figion: ImageArchiver başlatıldı.
+23:00:30 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+23:00:30 [INFO] figion: Donanım kontrolü: kamera=OK
+23:00:30 [INFO] figion: Durum geçişi: INITIALIZING → READY
+23:00:31 [INFO] figion: VideoProcessorWorker başlatıldı.
+23:00:32 [INFO] figion: Kamera açıldı: index=0, 1280x720
+23:01:12 [INFO] figion: Durum geçişi: READY → SCANNING
+23:01:12 [INFO] figion: Yeni oturum oluşturuldu: BATCH_20260509_230112 (id=35)
+23:01:12 [INFO] figion: Oturum başlatıldı: BATCH_20260509_230112
+23:01:12 [INFO] figion: Scanning started — BATCH_20260509_230112
+23:01:15 [DEBUG] figion: Slot 0 tetiklendi: Healthy (94%)
+23:01:15 [DEBUG] figion: Slot 1 tetiklendi: Healthy (95%)
+23:01:15 [DEBUG] figion: Slot 3 tetiklendi: Healthy (97%)
+23:01:21 [DEBUG] figion: Slot 9 tetiklendi: Aflatoxin (75%)
+23:01:23 [DEBUG] figion: Slot 0 kapandı (incir ayrıldı).
+23:01:23 [DEBUG] figion: Slot 1 kapandı (incir ayrıldı).
+23:01:23 [DEBUG] figion: Slot 3 kapandı (incir ayrıldı).
+23:01:24 [DEBUG] figion: Slot 12 tetiklendi: Healthy (91%)
+23:01:28 [DEBUG] figion: Slot 9 kapandı (incir ayrıldı).
+23:01:30 [DEBUG] figion: Slot 26 tetiklendi: Healthy (98%)
+23:01:30 [DEBUG] figion: Slot 28 tetiklendi: Healthy (98%)
+23:01:30 [DEBUG] figion: Slot 30 tetiklendi: Healthy (83%)
+23:01:31 [DEBUG] figion: Slot 32 tetiklendi: Aflatoxin (89%)
+23:01:31 [DEBUG] figion: Slot 33 tetiklendi: Healthy (92%)
+23:01:31 [DEBUG] figion: Slot 12 kapandı (incir ayrıldı).
+23:01:33 [DEBUG] figion: Slot 36 tetiklendi: Healthy (98%)
+23:01:35 [DEBUG] figion: Slot 37 tetiklendi: Healthy (99%)
+23:01:41 [DEBUG] figion: Slot 28 kapandı (incir ayrıldı).
+23:01:47 [DEBUG] figion: Slot 36 kapandı (incir ayrıldı).
+23:01:48 [DEBUG] figion: Slot 26 kapandı (incir ayrıldı).
+23:01:48 [DEBUG] figion: Slot 32 kapandı (incir ayrıldı).
+23:01:48 [DEBUG] figion: Slot 37 kapandı (incir ayrıldı).
+23:01:52 [DEBUG] figion: Slot 33 kapandı (incir ayrıldı).
+23:01:57 [DEBUG] figion: Slot 70 tetiklendi: Aflatoxin (65%)
+23:02:02 [DEBUG] figion: Slot 80 tetiklendi: Healthy (98%)
+23:02:02 [DEBUG] figion: Slot 82 tetiklendi: Aflatoxin (98%)
+23:02:02 [DEBUG] figion: Slot 83 tetiklendi: Healthy (99%)
+23:02:02 [DEBUG] figion: Slot 85 tetiklendi: Healthy (61%)
+23:02:06 [DEBUG] figion: Slot 70 kapandı (incir ayrıldı).
+23:02:07 [DEBUG] figion: Slot 89 tetiklendi: Healthy (98%)
+23:02:07 [DEBUG] figion: Slot 90 tetiklendi: Aflatoxin (98%)
+23:02:07 [DEBUG] figion: Slot 91 tetiklendi: Healthy (99%)
+23:02:07 [DEBUG] figion: Slot 92 tetiklendi: Healthy (75%)
+23:02:08 [DEBUG] figion: Slot 30 kapandı (incir ayrıldı).
+23:02:11 [DEBUG] figion: Slot 94 tetiklendi: Aflatoxin (65%)
+23:02:12 [DEBUG] figion: Slot 82 kapandı (incir ayrıldı).
+23:02:12 [DEBUG] figion: Slot 85 kapandı (incir ayrıldı).
+23:02:20 [DEBUG] figion: Slot 96 tetiklendi: Healthy (74%)
+23:02:20 [DEBUG] figion: Slot 97 tetiklendi: Aflatoxin (82%)
+23:02:21 [DEBUG] figion: Slot 89 kapandı (incir ayrıldı).
+23:02:22 [DEBUG] figion: Slot 83 kapandı (incir ayrıldı).
+23:02:24 [DEBUG] figion: Slot 100 tetiklendi: Healthy (98%)
+23:02:25 [DEBUG] figion: Slot 104 tetiklendi: Aflatoxin (99%)
+23:02:25 [DEBUG] figion: Slot 105 tetiklendi: Healthy (99%)
+23:02:25 [DEBUG] figion: Slot 80 kapandı (incir ayrıldı).
+23:02:26 [DEBUG] figion: Slot 91 kapandı (incir ayrıldı).
+23:02:28 [DEBUG] figion: Slot 90 kapandı (incir ayrıldı).
+23:02:28 [DEBUG] figion: Slot 96 kapandı (incir ayrıldı).
+23:02:28 [DEBUG] figion: Slot 97 kapandı (incir ayrıldı).
+23:02:30 [DEBUG] figion: Slot 113 tetiklendi: Healthy (78%)
+23:02:31 [DEBUG] figion: Slot 94 kapandı (incir ayrıldı).
+23:02:32 [DEBUG] figion: Slot 114 tetiklendi: Healthy (71%)
+23:02:32 [DEBUG] figion: Slot 92 kapandı (incir ayrıldı).
+23:02:32 [DEBUG] figion: Slot 100 kapandı (incir ayrıldı).
+23:02:32 [DEBUG] figion: Slot 104 kapandı (incir ayrıldı).
+23:02:32 [DEBUG] figion: Slot 105 kapandı (incir ayrıldı).
+23:02:34 [DEBUG] figion: Slot 113 kapandı (incir ayrıldı).
+23:02:34 [DEBUG] figion: Slot 114 kapandı (incir ayrıldı).
+23:02:41 [INFO] figion: Durum geçişi: SCANNING → READY
+23:02:41 [INFO] figion: Oturum sona erdi: BATCH_20260509_230112 — Toplam: 29, Kirli: 8
+23:02:41 [INFO] figion: Scanning stopped.
+23:10:00 [INFO] figion: Application closing…
+23:10:00 [INFO] figion: Durum geçişi: READY → SHUTDOWN
+23:10:00 [INFO] figion: Kamera bağlantısı kapatıldı.
+23:10:00 [INFO] figion: VideoProcessorWorker durduruldu.
+23:10:00 [INFO] figion: ImageArchiver durduruldu.
+23:10:00 [INFO] figion: Veritabanı bağlantısı kapatıldı.
+23:10:07 [INFO] figion: Figion starting…
+23:10:07 [DEBUG] figion: Şema uygulandı / doğrulandı.
+23:10:07 [INFO] figion: SQLite veritabanı hazır: C:\Users\aycau\Downloads\figionn\figionn\data/figion.db
+23:10:07 [INFO] figion: ImageArchiver başlatıldı.
+23:10:07 [INFO] figion: Ultralytics .pt modeli yüklendi: C:\Users\aycau\Downloads\figionn\figionn\models/final_model.pt
+23:10:08 [INFO] figion: Donanım kontrolü: kamera=OK
+23:10:08 [INFO] figion: Durum geçişi: INITIALIZING → READY
+23:10:09 [INFO] figion: VideoProcessorWorker başlatıldı.
+23:10:09 [INFO] figion: Kamera açıldı: index=0, 1280x720
